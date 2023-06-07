@@ -1,0 +1,98 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 34c98e31-06d2-46ec-970e-3acc65b5aead)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "note, this is not verified!!!  double check with datasheets and layouts to make sure that you're not going to fry pins by connecting it up this way!!!"
+    (at 71.12 35.56 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3422f687-4ce6-4add-8199-b9c352c6ba1c)
+  )
+  (text "IMPORTANT!!  use the numbers from the *inside* of the chip diagrams, that correspond to the actual real-world layout, rather than the pin numbers on the outside of the diagrams!"
+    (at 55.88 33.02 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 81d1c623-d06f-48a5-8145-13ffb2cd8019)
+  )
+  (text "screen not shown -- connect as appropriate to SPI MOSI/MISO etc and power+ground"
+    (at 125.73 135.89 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d66ab89d-47aa-4837-8446-446fe8fe9f68)
+  )
+
+  (sheet (at 92.329 111.506) (size 38.481 37.338) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3641c165-debd-472b-820d-c13349d66dba)
+    (property "Sheetname" "CV Input Expander" (at 92.329 110.7944 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "expander_cv_input.kicad_sch" (at 92.329 149.4286 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "usb_midi_clocker circuits"
+        (path "/34c98e31-06d2-46ec-970e-3acc65b5aead" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 26.5684 108.7628) (size 50.6984 47.0916) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 57d00b65-4cce-4dfb-a10d-a8b20116a302)
+    (property "Sheetname" "Gate Output Expander" (at 26.5684 108.0512 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "expander_gate_output2.kicad_sch" (at 26.5684 156.439 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "usb_midi_clocker circuits"
+        (path "/34c98e31-06d2-46ec-970e-3acc65b5aead" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 28.956 51.308) (size 45.466 43.942) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8605ec3d-c61d-42ba-ab22-ca4ce5245174)
+    (property "Sheetname" "Main board" (at 28.956 50.5964 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "main.kicad_sch" (at 28.956 95.8346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "usb_midi_clocker circuits"
+        (path "/34c98e31-06d2-46ec-970e-3acc65b5aead" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 96.52 58.293) (size 39.497 38.862) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e5977cfb-0ea5-4369-bff9-d4358e50e23d)
+    (property "Sheetname" "MIDI Expander" (at 96.52 57.5814 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "expander_midi.kicad_sch" (at 96.52 97.7396 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "usb_midi_clocker circuits"
+        (path "/34c98e31-06d2-46ec-970e-3acc65b5aead" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

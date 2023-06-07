@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "usb_midi_clocker circuits-rescue")(type "KiCad")(uri "${KIPRJMOD}/usb_midi_clocker circuits-rescue.kicad_sym")(options "")(descr ""))
+)
