@@ -4848,7 +4848,7 @@
     (property "Value" "Conn_01x09_Pin" (at 165.862 28.448 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "doctea:PinHeader_2x05_P2.54mm_Vertical-AlternatePinNumbering" (at 164.846 40.894 0)
+    (property "Footprint" "doctea:PinHeader_2x05_P2.54mm_Vertical" (at 164.846 40.894 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 164.846 40.894 0)
