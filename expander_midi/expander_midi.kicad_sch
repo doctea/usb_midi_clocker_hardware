@@ -1557,10 +1557,10 @@
     (uuid ffb87a77-87da-4e3c-b509-f95c5d73e5c9)
   )
 
-  (global_label "MIDI_1_TX_BACK" (shape input) (at 59.0296 71.882 0) (fields_autoplaced)
+  (global_label "MIDI_1_TX" (shape input) (at 59.0296 71.882 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 02ebb643-78e3-473c-bc08-18247f58b1d7)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 77.0544 71.882 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 71.1882 71.882 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1683,10 +1683,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "MIDI_3_TX_BACK" (shape input) (at 59.0296 76.962 0) (fields_autoplaced)
+  (global_label "MIDI_3_TX" (shape input) (at 59.0296 76.962 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 6494f323-0791-4736-9ec0-48ed76e0166d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 77.0544 76.962 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 71.1882 76.962 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1753,10 +1753,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "MIDI_4_TX_BACK" (shape input) (at 59.0296 79.502 0) (fields_autoplaced)
+  (global_label "MIDI_4_TX" (shape input) (at 59.0296 79.502 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a221e45a-285d-4794-aaec-86389ffce15c)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 77.0544 79.502 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 71.1882 79.502 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1830,10 +1830,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "MIDI_2_TX_BACK" (shape input) (at 59.0296 74.422 0) (fields_autoplaced)
+  (global_label "MIDI_2_TX" (shape input) (at 59.0296 74.422 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid bf972282-4e5b-4b55-b99b-6613fbe17ad5)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 77.0544 74.422 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 71.1882 74.422 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1974,7 +1974,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1983,7 +1983,7 @@
   (symbol (lib_id "power:GND") (at 213.106 83.312 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0773540f-99db-4838-bbe5-241f76cbe7eb)
-    (property "Reference" "#PWR026" (at 206.756 83.312 0)
+    (property "Reference" "#PWR036" (at 206.756 83.312 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 208.7118 83.439 90)
@@ -1999,7 +1999,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -2065,7 +2065,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2111,7 +2111,7 @@
   (symbol (lib_id "power:+5V") (at 221.742 27.5844 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 140f007a-70f9-4ad6-8d8c-ef3b1aeb5a01)
-    (property "Reference" "#PWR024" (at 221.742 31.3944 0)
+    (property "Reference" "#PWR040" (at 221.742 31.3944 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 221.361 23.1902 0)
@@ -2127,7 +2127,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -2141,7 +2141,7 @@
   (symbol (lib_id "power:GND") (at 113.4872 178.9684 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16265c99-eb2b-4763-96cf-6bcaaa531c75)
-    (property "Reference" "#PWR042" (at 107.1372 178.9684 0)
+    (property "Reference" "#PWR021" (at 107.1372 178.9684 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.093 179.0954 90)
@@ -2157,7 +2157,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -2223,7 +2223,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2264,7 +2264,7 @@
   (symbol (lib_id "power:GND") (at 251.714 151.7904 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a971ab1-5417-4ecc-be67-9de6a6f08022)
-    (property "Reference" "#PWR033" (at 245.364 151.7904 0)
+    (property "Reference" "#PWR045" (at 245.364 151.7904 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 247.3198 151.9174 90)
@@ -2280,7 +2280,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -2294,7 +2294,7 @@
   (symbol (lib_id "power:GND") (at 203.0476 151.7396 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c9f82e6-b352-472b-875b-ce17f576aee0)
-    (property "Reference" "#PWR032" (at 196.6976 151.7396 0)
+    (property "Reference" "#PWR035" (at 196.6976 151.7396 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 198.6534 151.8666 90)
@@ -2310,7 +2310,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -2345,7 +2345,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -2537,7 +2537,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2567,7 +2567,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2607,7 +2607,7 @@
   (symbol (lib_id "power:+5V") (at 220.726 79.1464 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31598302-1695-442a-b4a4-09a8bed71f0d)
-    (property "Reference" "#PWR028" (at 220.726 82.9564 0)
+    (property "Reference" "#PWR038" (at 220.726 82.9564 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 220.345 74.7522 0)
@@ -2623,7 +2623,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -2637,7 +2637,7 @@
   (symbol (lib_id "power:GND") (at 126.1872 151.7396 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a6d248b-d3b6-4133-ac51-ff95b9dda9b5)
-    (property "Reference" "#PWR039" (at 132.5372 151.7396 0)
+    (property "Reference" "#PWR028" (at 132.5372 151.7396 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.5814 151.6126 90)
@@ -2653,7 +2653,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -2750,7 +2750,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -2811,7 +2811,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2841,7 +2841,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2850,7 +2850,7 @@
   (symbol (lib_id "power:GND") (at 203.0222 126.7968 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d5c11fb-a780-4ad5-bc72-cd806be98b02)
-    (property "Reference" "#PWR016" (at 196.6722 126.7968 0)
+    (property "Reference" "#PWR034" (at 196.6722 126.7968 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 198.628 126.9238 90)
@@ -2866,7 +2866,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -2880,7 +2880,7 @@
   (symbol (lib_id "power:GND") (at 220.726 112.268 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ebb0d47-8669-46dc-a6d6-424847cd1367)
-    (property "Reference" "#PWR027" (at 220.726 118.618 0)
+    (property "Reference" "#PWR039" (at 220.726 118.618 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.853 116.6622 0)
@@ -2896,7 +2896,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -2931,7 +2931,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2940,7 +2940,7 @@
   (symbol (lib_id "Device:C") (at 217.932 31.75 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4fd3d69d-e366-437b-aaf8-5361a74ded55)
-    (property "Reference" "C3" (at 217.932 25.3492 90)
+    (property "Reference" "C6" (at 217.932 25.3492 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 217.932 27.6606 90)
@@ -2957,7 +2957,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "C3") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -2971,7 +2971,7 @@
   (symbol (lib_id "power:GND") (at 109.982 31.75 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4fdff6ad-0bc0-4610-a968-5242c668f697)
-    (property "Reference" "#PWR012" (at 103.632 31.75 0)
+    (property "Reference" "#PWR017" (at 103.632 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 105.5878 31.877 90)
@@ -2987,7 +2987,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -3140,7 +3140,7 @@
   (symbol (lib_id "Device:C") (at 114.554 83.566 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6830d3d9-9bfd-4783-946c-b3c3e036cb3c)
-    (property "Reference" "C4" (at 114.554 77.1652 90)
+    (property "Reference" "C3" (at 114.554 77.1652 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 114.554 79.4766 90)
@@ -3157,7 +3157,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "C4") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -3223,7 +3223,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -3253,7 +3253,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -3262,7 +3262,7 @@
   (symbol (lib_id "Device:C") (at 216.916 83.312 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c09b6cc-545e-4d25-bc53-f6902d70110c)
-    (property "Reference" "C8" (at 216.916 76.9112 90)
+    (property "Reference" "C5" (at 216.916 76.9112 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 216.916 79.2226 90)
@@ -3279,7 +3279,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "C8") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -3293,7 +3293,7 @@
   (symbol (lib_id "power:GND") (at 214.122 31.75 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c31b367-fffc-4bfd-be1c-8eebcd29f2a4)
-    (property "Reference" "#PWR022" (at 207.772 31.75 0)
+    (property "Reference" "#PWR037" (at 207.772 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 209.7278 31.877 90)
@@ -3309,7 +3309,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -3354,7 +3354,7 @@
   (symbol (lib_id "power:GND") (at 113.4872 151.7396 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ff28808-b107-4122-81a2-58ba6f91c5ed)
-    (property "Reference" "#PWR038" (at 107.1372 151.7396 0)
+    (property "Reference" "#PWR019" (at 107.1372 151.7396 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.093 151.8666 90)
@@ -3370,7 +3370,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -3384,7 +3384,7 @@
   (symbol (lib_id "power:GND") (at 110.744 83.566 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72d72dd5-9005-430d-a1ff-3fae511e1ce9)
-    (property "Reference" "#PWR023" (at 104.394 83.566 0)
+    (property "Reference" "#PWR018" (at 104.394 83.566 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.3498 83.693 90)
@@ -3400,7 +3400,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -3435,7 +3435,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3476,7 +3476,7 @@
   (symbol (lib_id "power:GND") (at 38.4556 69.596 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b0a0cbd-409f-4392-84e5-6a52a1018eb2)
-    (property "Reference" "#PWR048" (at 32.1056 69.596 0)
+    (property "Reference" "#PWR06" (at 32.1056 69.596 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 32.9184 69.596 90)
@@ -3492,7 +3492,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -3606,13 +3606,13 @@
   (symbol (lib_id "Connector:Conn_01x06_Socket") (at 43.5356 74.676 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 847c95f4-c1ea-44eb-aead-53c8163324e7)
-    (property "Reference" "J2_FRONT" (at 30.5816 64.008 0)
+    (property "Reference" "J2_FRONT1" (at 30.5816 64.008 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x06_Socket" (at 25.5016 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 43.5356 74.676 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" (at 43.5356 74.676 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 43.5356 74.676 0)
@@ -3627,7 +3627,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "J2_FRONT") (unit 1)
+          (reference "J2_FRONT1") (unit 1)
         )
       )
     )
@@ -3636,7 +3636,7 @@
   (symbol (lib_id "power:GND") (at 117.602 60.706 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84a26c89-6d40-40cf-9f00-476c4656a589)
-    (property "Reference" "#PWR013" (at 117.602 67.056 0)
+    (property "Reference" "#PWR025" (at 117.602 67.056 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 117.729 65.1002 0)
@@ -3652,7 +3652,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -3666,7 +3666,7 @@
   (symbol (lib_id "power:GND") (at 221.742 60.706 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 860e40f1-cd31-4b45-9942-f4ea00b6e938)
-    (property "Reference" "#PWR029" (at 221.742 67.056 0)
+    (property "Reference" "#PWR041" (at 221.742 67.056 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 221.869 65.1002 0)
@@ -3682,7 +3682,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -3696,13 +3696,13 @@
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 53.9496 74.422 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 882a95a3-4202-41d6-9d07-3a34c408b8ca)
-    (property "Reference" "J2_BACK" (at 62.4586 63.246 0)
+    (property "Reference" "J2_BACK1" (at 62.4586 63.246 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x06_Pin" (at 62.7126 65.659 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 53.9496 74.422 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" (at 53.9496 74.422 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 53.9496 74.422 0)
@@ -3717,7 +3717,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "J2_BACK") (unit 1)
+          (reference "J2_BACK1") (unit 1)
         )
       )
     )
@@ -3747,7 +3747,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -3818,7 +3818,7 @@
   (symbol (lib_id "power:+5V") (at 118.364 79.4004 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f72fa7b-bd5f-4252-90e0-fdb427c81255)
-    (property "Reference" "#PWR014" (at 118.364 83.2104 0)
+    (property "Reference" "#PWR026" (at 118.364 83.2104 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 117.983 75.0062 0)
@@ -3834,7 +3834,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -3869,7 +3869,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -3909,13 +3909,13 @@
   (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 118.5672 156.8196 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b03bd5ad-cdb5-486c-a3df-fdda1e1db7bf)
-    (property "Reference" "J1_BACK" (at 119.8372 147.4597 0)
+    (property "Reference" "J1_BACK1" (at 119.8372 147.4597 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x06_Odd_Even" (at 119.8372 149.3807 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 118.5672 156.8196 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" (at 118.5672 156.8196 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.5672 156.8196 0)
@@ -3936,7 +3936,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "J1_BACK") (unit 1)
+          (reference "J1_BACK1") (unit 1)
         )
       )
     )
@@ -3966,7 +3966,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -3975,7 +3975,7 @@
   (symbol (lib_id "CV12 Feb 22 with lpzw midi 5v-rescue:AudioJack3-Connector") (at 256.3876 129.0828 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b63850c8-e7f7-42db-acbf-d64ec839bfc8)
-    (property "Reference" "JMIDIIN2" (at 263.4996 128.4478 0)
+    (property "Reference" "JMIDIIN3" (at 263.4996 128.4478 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MIDI In Jack 3.5mm stereo jack" (at 243.6876 136.7028 0)
@@ -3993,7 +3993,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "JMIDIIN2") (unit 1)
+          (reference "JMIDIIN3") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -4028,7 +4028,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -4068,7 +4068,7 @@
   (symbol (lib_id "power:GND") (at 251.3076 126.5428 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be228c6f-7783-4cca-8ab1-c19ef28c39bc)
-    (property "Reference" "#PWR021" (at 244.9576 126.5428 0)
+    (property "Reference" "#PWR044" (at 244.9576 126.5428 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.9134 126.6698 90)
@@ -4084,7 +4084,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -4119,7 +4119,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -4128,13 +4128,13 @@
   (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 118.5672 184.0484 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2977423-6fce-4c19-a45b-1325e3da783d)
-    (property "Reference" "J1_FRONT" (at 119.8372 174.6885 0)
+    (property "Reference" "J1_FRONT1" (at 119.8372 174.6885 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x06_Odd_Even" (at 119.8372 176.6095 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 118.5672 184.0484 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical" (at 118.5672 184.0484 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.5672 184.0484 0)
@@ -4155,7 +4155,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "J1_FRONT") (unit 1)
+          (reference "J1_FRONT1") (unit 1)
         )
       )
     )
@@ -4164,7 +4164,7 @@
   (symbol (lib_id "power:GND") (at 59.0296 69.342 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8ba29cb-5a03-46b5-99de-c916c50c1c39)
-    (property "Reference" "#PWR046" (at 65.3796 69.342 0)
+    (property "Reference" "#PWR013" (at 65.3796 69.342 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.4238 69.215 90)
@@ -4180,7 +4180,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -4247,7 +4247,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -4278,7 +4278,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "C2") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -4287,7 +4287,7 @@
   (symbol (lib_id "CV12 Feb 22 with lpzw midi 5v-rescue:AudioJack3-Connector") (at 208.1276 154.2796 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d97a7cc9-7c2b-40d5-b8ef-308459d9043e)
-    (property "Reference" "JMIDIIN3" (at 215.2396 153.6446 0)
+    (property "Reference" "JMIDIIN2" (at 215.2396 153.6446 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MIDI In Jack 3.5mm stereo jack" (at 195.4276 161.8996 0)
@@ -4305,7 +4305,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "JMIDIIN3") (unit 1)
+          (reference "JMIDIIN2") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -4340,7 +4340,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -4380,7 +4380,7 @@
   (symbol (lib_id "power:+5V") (at 117.602 27.5844 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc043441-7342-427d-855d-d3d1b1040edf)
-    (property "Reference" "#PWR050" (at 117.602 31.3944 0)
+    (property "Reference" "#PWR024" (at 117.602 31.3944 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 117.221 23.1902 0)
@@ -4396,7 +4396,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -4431,7 +4431,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -4492,7 +4492,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -4501,7 +4501,7 @@
   (symbol (lib_id "Device:C") (at 113.792 31.75 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7bc412e-a571-4b09-858d-4a0d09668126)
-    (property "Reference" "C7" (at 113.792 25.3492 90)
+    (property "Reference" "C2" (at 113.792 25.3492 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 113.792 27.6606 90)
@@ -4518,7 +4518,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "C7") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -4585,7 +4585,7 @@
       )
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -4625,7 +4625,7 @@
   (symbol (lib_id "power:GND") (at 118.364 112.522 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f86c96ff-85b2-44e3-a93c-ebc2546c29c1)
-    (property "Reference" "#PWR015" (at 118.364 118.872 0)
+    (property "Reference" "#PWR027" (at 118.364 118.872 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.491 116.9162 0)
@@ -4641,7 +4641,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
@@ -4655,7 +4655,7 @@
   (symbol (lib_id "power:GND") (at 126.1872 178.9684 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd0d4ae3-529d-4038-9419-1d0f8687ad48)
-    (property "Reference" "#PWR044" (at 132.5372 178.9684 0)
+    (property "Reference" "#PWR030" (at 132.5372 178.9684 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.5814 178.8414 90)
@@ -4671,7 +4671,7 @@
     (instances
       (project "expander_midi"
         (path "/8fcbdaf3-53ec-4740-8065-f2eb281fe20d"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
       (project "CV12 Feb 22 with lpzw midi 5v"
