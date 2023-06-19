@@ -1,0 +1,6 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+"ADS1015_1_DIG1, ADS1015_2_DIG1",PinSocket_1x05_P2.54mm_Vertical,2,ADS1015 digital side,
+"ASD1015_1_ANA1, ASD1015_2_ANA1",PinSocket_1x05_P2.54mm_Vertical,2,ADS1015 analog side,
+"C1, C2",C_Disc_D5.0mm_W2.5mm_P5.00mm,2,100n,
+"CV_INPUT_I2C_EXPANDER1, CV_INPUT_I2C_THRU1",PinHeader_2x04_P2.54mm_Vertical,2,8 pin header,
+"JACK1, JACK2, JACK3, JACK4, JACK5, JACK6",Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles,6,AudioJack2_SwitchT,
