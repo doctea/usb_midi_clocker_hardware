@@ -1,0 +1,8 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+"D17, D18, D19, D20, D21, D22, D23, D24, D41, D42, D43, D44, D45, D46, D47, D48",LED_D3.0mm,16,LED,
+J3,PinHeader_1x10_P2.54mm_Vertical,1,Output_A_Connector_Frontboard,
+J4,PinHeader_1x10_P2.54mm_Vertical,1,Output_B_Connector_Frontboard,
+"JACK1, JACK14",Thonkiconn Renumbered,2,~,
+"JACK10, JACK11, JACK12, JACK13, JACK15, JACK16, JACK2, JACK3, JACK4, JACK5, JACK6, JACK7, JACK8, JACK9",Thonkiconn Renumbered,14,fuzzySI_thonkiconn,
+"R1, R11, R13, R15, R17, R19, R21, R23, R25, R27, R29, R3, R31, R5, R7, R9",0805,16,47K,
+"R10, R12, R14, R16, R18, R2, R20, R22, R24, R26, R28, R30, R32, R4, R6, R8",0805,16,1K,
