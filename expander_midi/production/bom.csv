@@ -1,0 +1,10 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C4",C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal,2,100nF,
+"C2, C3, C5, C6",C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal,4,100n,
+J1_BACK1,PinHeader_2x06_P2.54mm_Vertical,1,Conn_02x06_Odd_Even,
+J2_BACK1,PinHeader_1x06_P2.54mm_Vertical,1,Conn_01x06_Pin,
+MIDI_EXPANDER_1,PinHeader_2x05_P2.54mm_Vertical,1,Conn_02x05_Counter_Clockwise,
+"R10, R11, R12, R15, R16, R17, R18, R9",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,8,220R,
+"R13, R14, R19, R20",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,4,470R,
+U1,SOT-223-3_TabPin2,1,LD1117,
+"ULPZWmidi1, ULPZWmidi2, ULPZWmidi3, ULPZWmidi4",SO-8_3.9x4.9mm_P1.27mm,4,HCPL-0631,
