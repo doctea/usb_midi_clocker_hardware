@@ -1,3 +1,7 @@
+*IMPORTANT: DO NOT USE THESE FOR ANYTHING YET, THEY ARE VERY MUCH PROTOTYPES AND HAVE SOME PROBLEMS!!!!*
+
+Files for PCB modules for use by [usb_midi_clocker](https://github.com/doctea/usb_midi_clocker/) project.
+
 ### Todo
 
 ## Main board (board)
