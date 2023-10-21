@@ -13,15 +13,15 @@ Files for PCB modules for use by [usb_midi_clocker](https://github.com/doctea/us
 
 ### Main module board
 
-- FIX: Replace the voltage regulator with one that will actually be able to deliver enough amps to power the screen and Teensy *facepalm*
- - Can work around this for the moment by connecting directly to 5v Eurorack power with eg Dupont cables
+- DONE/UNTESTED: FIX: Replace the voltage regulator with one that will actually be able to deliver enough amps to power the screen and Teensy *facepalm*
+ - ~~Can work around this for the moment by connecting directly to 5v Eurorack power with eg Dupont cables~~
 - FIX: Fix/bridge/remove power diode that prevents power from USB going to screen
 - IMPROVE: Make the i2c port into a 2x5 connector
 
 ### Main module panel
 
-- IMPROVE: Cutout for display pins in order to allow the panel to sit flat on top of the display without bending like it currently does?
-- FIX: Make the encoder hole bigger, so that the encoder will fit through
+- DONE/UNTESTED: IMPROVE: Cutout for display pins in order to allow the panel to sit flat on top of the display without bending like it currently does?
+- DONE/UNTESTED: FIX: Make the encoder hole bigger, so that the encoder will fit through
 
 ## Gate expander
 
