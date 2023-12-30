@@ -17,6 +17,7 @@ Files for PCB modules for use by [usb_midi_clocker](https://github.com/doctea/us
  - ~~Can work around this for the moment by connecting directly to 5v Eurorack power with eg Dupont cables~~
 - FIX: Fix/bridge/remove power diode that prevents power from USB going to screen
 - IMPROVE: Make the i2c port into a 2x5 connector
+- IMPROVE: Add 100ohm resistors on the SPI connectors
 
 ### Main module panel
 
@@ -50,3 +51,7 @@ Files for PCB modules for use by [usb_midi_clocker](https://github.com/doctea/us
 - Seems to be working on first attempt!
 - IMPROVE: pitch spacing of the resistors/capacitors to allow common components to fit a little better (slightly wide resistor spacing, slightly narrower capacitor spacing)
 - IMPROVE: maybe add protection diodes to protect the Teensy's GPIO pins in the event of wrong thing being connected?
+
+## USB+SD expander
+
+- 
