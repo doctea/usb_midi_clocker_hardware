@@ -1,4 +1,4 @@
-22245226195224783
+22246931377097864
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -92546,6 +92546,13 @@ Teensy_LC
 0
 39
 39
+usba1vsb6
+ONSHORE_USB-A1VSB6
+
+
+0
+6
+6
 xiao
 xiao-tht
 
