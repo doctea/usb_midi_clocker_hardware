@@ -1,1104 +1,3075 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid a9e4ad89-ca26-464a-b121-56ca282a5e7f)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Connector:Conn_01x02_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x02_Pin" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x02, script generated" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x02_Pin_1_1"
-        (polyline
-          (pts
-            (xy 1.27 -2.54)
-            (xy 0.8636 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy 0.8636 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 0.8636 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.8636 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (pin passive line (at 5.08 0 180) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -2.54 180) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector:Conn_01x05_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x05_Pin" (at 0 -7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x05, script generated" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x05_Pin_1_1"
-        (polyline
-          (pts
-            (xy 1.27 -5.08)
-            (xy 0.8636 -5.08)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -2.54)
-            (xy 0.8636 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy 0.8636 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 2.54)
-            (xy 0.8636 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 5.08)
-            (xy 0.8636 5.08)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 0.8636 -4.953) (end 0 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.8636 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.8636 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.8636 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.8636 5.207) (end 0 4.953)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (pin passive line (at 5.08 5.08 180) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 2.54 180) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 0 180) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -2.54 180) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -5.08 180) (length 3.81)
-          (name "Pin_5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector:Micro_SD_Card_Det1" (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at -16.51 17.78 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Micro_SD_Card_Det1" (at 16.51 17.78 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Footprint" "" (at 52.07 17.78 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector SD microsd" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Micro SD Card Socket with one card detection pin" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "microSD*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Micro_SD_Card_Det1_0_1"
-        (rectangle (start -7.62 -6.985) (end -5.08 -8.255)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start -7.62 -4.445) (end -5.08 -5.715)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start -7.62 -1.905) (end -5.08 -3.175)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start -7.62 0.635) (end -5.08 -0.635)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start -7.62 3.175) (end -5.08 1.905)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start -7.62 5.715) (end -5.08 4.445)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start -7.62 8.255) (end -5.08 6.985)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start -7.62 10.795) (end -5.08 9.525)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 16.51 15.24)
-            (xy 16.51 16.51)
-            (xy -19.05 16.51)
-            (xy -19.05 -16.51)
-            (xy 16.51 -16.51)
-            (xy 16.51 -8.89)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -8.89 -8.89)
-            (xy -8.89 11.43)
-            (xy -1.27 11.43)
-            (xy 2.54 15.24)
-            (xy 3.81 15.24)
-            (xy 3.81 13.97)
-            (xy 6.35 13.97)
-            (xy 7.62 15.24)
-            (xy 20.32 15.24)
-            (xy 20.32 -8.89)
-            (xy -8.89 -8.89)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "Micro_SD_Card_Det1_1_1"
-        (pin bidirectional line (at -22.86 10.16 0) (length 3.81)
-          (name "DAT2" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 20.32 -12.7 180) (length 3.81)
-          (name "SHIELD" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -22.86 7.62 0) (length 3.81)
-          (name "DAT3/CD" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -22.86 5.08 0) (length 3.81)
-          (name "CMD" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -22.86 2.54 0) (length 3.81)
-          (name "VDD" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -22.86 0 0) (length 3.81)
-          (name "CLK" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -22.86 -2.54 0) (length 3.81)
-          (name "VSS" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -22.86 -5.08 0) (length 3.81)
-          (name "DAT0" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -22.86 -7.62 0) (length 3.81)
-          (name "DAT1" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -22.86 -12.7 0) (length 3.81)
-          (name "DET" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector_Generic:Conn_02x04_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 1.27 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_02x04_Odd_Even" (at 1.27 -7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_2x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_02x04_Odd_Even_1_1"
-        (rectangle (start -1.27 -4.953) (end 0 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 3.81) (end 3.81 -6.35)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (rectangle (start 3.81 -4.953) (end 2.54 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.81 -2.413) (end 2.54 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.81 0.127) (end 2.54 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.81 2.667) (end 2.54 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 2.54 180) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 0 180) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 -2.54 180) (length 3.81)
-          (name "Pin_6" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
-          (name "Pin_7" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 -5.08 180) (length 3.81)
-          (name "Pin_8" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MountingHole" (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MountingHole_0_1"
-        (circle (center 0 0) (radius 1.27)
-          (stroke (width 1.27) (type default))
-          (fill (type none))
-        )
-      )
-    )
-    (symbol "PCM_4ms_Power-symbol:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "USB-A1VSB6:USB-A1VSB6" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at -5.334 8.382 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom))
-      )
-      (property "Value" "USB-A1VSB6" (at -5.08 -15.24 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom))
-      )
-      (property "Footprint" "USB-A1VSB6:ONSHORE_USB-A1VSB6" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "PARTREV" "D" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
-      )
-      (property "STANDARD" "Manufacturer Recommendation" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
-      )
-      (property "MANUFACTURER" "On Shore Technology" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
-      )
-      (symbol "USB-A1VSB6_0_0"
-        (rectangle (start -5.08 -12.7) (end 5.08 7.62)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -10.16 5.08 0) (length 5.08)
-          (name "VUSB" (effects (font (size 1.016 1.016))))
-          (number "1" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at -10.16 2.54 0) (length 5.08)
-          (name "D-" (effects (font (size 1.016 1.016))))
-          (number "2" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at -10.16 0 0) (length 5.08)
-          (name "D+" (effects (font (size 1.016 1.016))))
-          (number "3" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at -10.16 -2.54 0) (length 5.08)
-          (name "GND" (effects (font (size 1.016 1.016))))
-          (number "4" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at -10.16 -7.62 0) (length 5.08)
-          (name "SHIELD" (effects (font (size 1.016 1.016))))
-          (number "S1" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at -10.16 -10.16 0) (length 5.08)
-          (name "SHIELD__1" (effects (font (size 1.016 1.016))))
-          (number "S2" (effects (font (size 1.016 1.016))))
-        )
-      )
-    )
-  )
-
-  (junction (at 228.473 118.872) (diameter 0) (color 0 0 0 0)
-    (uuid 0de93ed5-4b85-46c5-9c19-6a22b207e991)
-  )
-  (junction (at 228.473 121.412) (diameter 0) (color 0 0 0 0)
-    (uuid 3c324d7f-a5ab-4960-9ed9-45e24fdd01a1)
-  )
-  (junction (at 209.804 123.952) (diameter 0) (color 0 0 0 0)
-    (uuid 9705718c-8d10-4c9b-9f1d-326ccc14a11b)
-  )
-
-  (wire (pts (xy 96.012 66.929) (xy 75.565 66.929))
-    (stroke (width 0) (type default))
-    (uuid 02b78a97-19d1-4b76-aae1-b62856cb87a2)
-  )
-  (wire (pts (xy 69.977 149.098) (xy 91.059 149.098))
-    (stroke (width 0) (type default))
-    (uuid 066571ec-75e6-43b1-981a-530e8428c278)
-  )
-  (wire (pts (xy 209.804 116.332) (xy 228.473 116.332))
-    (stroke (width 0) (type default))
-    (uuid 06e14885-a98d-48a1-9da6-05bba7481039)
-  )
-  (wire (pts (xy 55.245 65.278) (xy 39.116 65.278))
-    (stroke (width 0) (type default))
-    (uuid 14223d48-62f9-4931-8cde-217531c8dc78)
-  )
-  (wire (pts (xy 85.471 64.389) (xy 85.471 67.437))
-    (stroke (width 0) (type default))
-    (uuid 193f7bd4-e7dd-4496-b07e-33327035f2d9)
-  )
-  (wire (pts (xy 82.042 138.938) (xy 91.059 138.938))
-    (stroke (width 0) (type default))
-    (uuid 1fd71171-ee44-4ea2-8dbc-648740527ef3)
-  )
-  (wire (pts (xy 85.471 62.738) (xy 85.471 56.769))
-    (stroke (width 0) (type default))
-    (uuid 2ca62113-2f26-4293-9a1a-64ab0ce317cf)
-  )
-  (wire (pts (xy 209.804 113.792) (xy 228.473 113.792))
-    (stroke (width 0) (type default))
-    (uuid 34d04867-6b73-402e-9c9d-0db2248705bd)
-  )
-  (wire (pts (xy 75.565 57.658) (xy 67.945 57.658))
-    (stroke (width 0) (type default))
-    (uuid 3508c07c-187f-4c03-820e-e9f3476228fe)
-  )
-  (wire (pts (xy 85.471 67.437) (xy 49.276 67.437))
-    (stroke (width 0) (type default))
-    (uuid 36747234-e2e2-43dd-af55-d437f54de3e3)
-  )
-  (wire (pts (xy 96.012 64.389) (xy 85.471 64.389))
-    (stroke (width 0) (type default))
-    (uuid 3963370b-bbfd-4632-809f-435f06f5d7e9)
-  )
-  (wire (pts (xy 67.945 65.278) (xy 83.439 65.278))
-    (stroke (width 0) (type default))
-    (uuid 44f8c0cf-36c8-432a-8f76-641f940161e9)
-  )
-  (wire (pts (xy 87.884 68.326) (xy 87.884 59.309))
-    (stroke (width 0) (type default))
-    (uuid 455dd3f1-561a-45b7-bf7a-2bb6161c4efe)
-  )
-  (wire (pts (xy 69.977 141.478) (xy 91.059 141.478))
-    (stroke (width 0) (type default))
-    (uuid 503ad1a0-7a74-4774-a7e8-a6f972c20d6e)
-  )
-  (wire (pts (xy 46.99 68.326) (xy 87.884 68.326))
-    (stroke (width 0) (type default))
-    (uuid 51c23a8f-03ef-4cb1-b87b-5a95245c04f7)
-  )
-  (wire (pts (xy 228.473 118.872) (xy 228.473 121.412))
-    (stroke (width 0) (type default))
-    (uuid 5374ad57-17f8-42d8-91cf-24a4ec3e8b0e)
-  )
-  (wire (pts (xy 87.884 59.309) (xy 96.012 59.309))
-    (stroke (width 0) (type default))
-    (uuid 554b5758-8f75-484f-8efc-ba18e2cd3095)
-  )
-  (wire (pts (xy 209.804 118.872) (xy 228.473 118.872))
-    (stroke (width 0) (type default))
-    (uuid 694b3177-379e-490f-86c2-24ee3abd27ad)
-  )
-  (wire (pts (xy 228.473 121.412) (xy 222.377 121.412))
-    (stroke (width 0) (type default))
-    (uuid 7031dc83-86aa-4f01-9f4f-4e5b1b479b3b)
-  )
-  (wire (pts (xy 46.99 62.738) (xy 46.99 68.326))
-    (stroke (width 0) (type default))
-    (uuid 714409a3-42df-42f2-8436-50340f0c9654)
-  )
-  (wire (pts (xy 43.053 57.658) (xy 43.053 69.469))
-    (stroke (width 0) (type default))
-    (uuid 776750ce-dc65-48db-bfd2-8350d109e569)
-  )
-  (wire (pts (xy 55.245 57.658) (xy 43.053 57.658))
-    (stroke (width 0) (type default))
-    (uuid 7770de46-9aaa-4dad-8d97-4f7157cd7ba5)
-  )
-  (wire (pts (xy 219.837 111.252) (xy 228.473 111.252))
-    (stroke (width 0) (type default))
-    (uuid 7b82968c-d497-472a-a6a5-dbf618402fcf)
-  )
-  (wire (pts (xy 209.804 123.952) (xy 209.804 126.492))
-    (stroke (width 0) (type default))
-    (uuid 7cdb8bee-5914-40e1-bc0c-fdad9fc0dfc2)
-  )
-  (wire (pts (xy 85.471 56.769) (xy 96.012 56.769))
-    (stroke (width 0) (type default))
-    (uuid 80c9d5d7-42fd-44c1-8f1d-0d73d2ba625f)
-  )
-  (wire (pts (xy 209.804 123.444) (xy 209.804 123.952))
-    (stroke (width 0) (type default))
-    (uuid 9125222a-ca2b-40b5-bb8c-605023a3d733)
-  )
-  (wire (pts (xy 69.977 146.558) (xy 91.059 146.558))
-    (stroke (width 0) (type default))
-    (uuid 9b1115a3-c369-4ec8-99b9-774ee3313394)
-  )
-  (wire (pts (xy 83.439 65.278) (xy 83.439 51.689))
-    (stroke (width 0) (type default))
-    (uuid aa31b203-91a3-4783-9b4e-6f00be186bf8)
-  )
-  (wire (pts (xy 89.916 60.198) (xy 89.916 61.849))
-    (stroke (width 0) (type default))
-    (uuid acdeb8a3-e83f-4a64-aaf7-de565bdb26a0)
-  )
-  (wire (pts (xy 39.116 65.278) (xy 39.116 54.229))
-    (stroke (width 0) (type default))
-    (uuid b26b3a2f-b65d-418c-a1bd-20d5f75858cd)
-  )
-  (wire (pts (xy 67.945 60.198) (xy 89.916 60.198))
-    (stroke (width 0) (type default))
-    (uuid c36c5de1-d01b-41b1-bf11-364691e208f2)
-  )
-  (wire (pts (xy 89.916 61.849) (xy 96.012 61.849))
-    (stroke (width 0) (type default))
-    (uuid c39d712d-8e98-45e4-a3a8-188de0302d8c)
-  )
-  (wire (pts (xy 69.977 144.018) (xy 91.059 144.018))
-    (stroke (width 0) (type default))
-    (uuid cf267fdd-671e-4b23-804e-fc99dd8e84c2)
-  )
-  (wire (pts (xy 43.053 69.469) (xy 96.012 69.469))
-    (stroke (width 0) (type default))
-    (uuid d860ea23-5f6d-4d87-9135-a74f887715e1)
-  )
-  (wire (pts (xy 39.116 54.229) (xy 96.012 54.229))
-    (stroke (width 0) (type default))
-    (uuid ddb6c2e0-b7f9-40d1-b7d8-f965c84469af)
-  )
-  (wire (pts (xy 49.276 60.198) (xy 55.245 60.198))
-    (stroke (width 0) (type default))
-    (uuid de5fdb67-b2cc-4ad7-8cc0-2ee7c1c803d6)
-  )
-  (wire (pts (xy 83.439 51.689) (xy 96.012 51.689))
-    (stroke (width 0) (type default))
-    (uuid df07c455-ac0a-44ad-8aac-2cc8c2ab997f)
-  )
-  (wire (pts (xy 209.804 111.252) (xy 217.297 111.252))
-    (stroke (width 0) (type default))
-    (uuid e637d8a9-b2a0-49ea-888d-d756f081c0d9)
-  )
-  (wire (pts (xy 209.804 123.444) (xy 222.377 123.444))
-    (stroke (width 0) (type default))
-    (uuid e6e559f8-0329-410c-b093-78bae644db1c)
-  )
-  (wire (pts (xy 69.977 138.938) (xy 79.502 138.938))
-    (stroke (width 0) (type default))
-    (uuid ecb45719-c448-41ab-926d-af3f8ba51bcc)
-  )
-  (wire (pts (xy 49.276 67.437) (xy 49.276 60.198))
-    (stroke (width 0) (type default))
-    (uuid efd89bb3-df82-4c74-a2fe-9b4b4d06d7f0)
-  )
-  (wire (pts (xy 67.945 62.738) (xy 85.471 62.738))
-    (stroke (width 0) (type default))
-    (uuid f04f5ee1-caab-4f51-ae13-e53378a3e33b)
-  )
-  (wire (pts (xy 222.377 121.412) (xy 222.377 123.444))
-    (stroke (width 0) (type default))
-    (uuid f32371ae-57c5-4672-bbbe-6f9b81686aaf)
-  )
-  (wire (pts (xy 75.565 66.929) (xy 75.565 57.658))
-    (stroke (width 0) (type default))
-    (uuid f7314e69-f614-49c9-a297-4f3ab10cf20b)
-  )
-  (wire (pts (xy 55.245 62.738) (xy 46.99 62.738))
-    (stroke (width 0) (type default))
-    (uuid f7870f4a-87b8-4509-9a38-e8ebb7496f16)
-  )
-
-  (text "USB Host connector" (at 208.915 93.472 0)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
-    (uuid 04378f38-2349-4e9d-98a7-ebf13a7e97f1)
-  )
-  (text "SD Card" (at 82.804 33.909 0)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
-    (uuid e5c88cd5-6948-442c-a8e0-b30cdac75d03)
-  )
-  (text "USB Device connector" (at 71.12 122.555 0)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
-    (uuid f991cdce-08f5-48e8-8983-8022be9d46b9)
-  )
-
-  (label "CLK" (at 67.945 60.198 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 01484933-4115-4fd1-8f98-e2105afaa1a5)
-  )
-  (label "DAT1" (at 55.245 57.658 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 19555e8a-cc00-476d-bc0f-2a2e726a3d04)
-  )
-  (label "DAT3" (at 55.245 65.278 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 255a0aef-6e92-4918-95c3-dc5d21b359d8)
-  )
-  (label "DAT1" (at 96.012 69.469 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 28335cb4-4fae-45ec-a979-b867a68c40a8)
-  )
-  (label "DAT2" (at 96.012 51.689 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 2d05d6f7-4ad3-4f76-bfea-cd55f4c56d0b)
-  )
-  (label "VCC" (at 96.012 59.309 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 318d2e03-f3da-4b05-817d-f39c84b5f0ea)
-  )
-  (label "VCC" (at 55.245 62.738 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 3a7f44aa-0348-4ef1-a005-9fb186d9b22e)
-  )
-  (label "GND" (at 55.245 60.198 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 3e5aa7c5-2919-4a29-a13c-6a8f011d6e06)
-  )
-  (label "CMD" (at 96.012 56.769 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 547c386d-715f-4c36-a36e-785114bac071)
-  )
-  (label "DAT0" (at 67.945 57.658 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 56114a22-1ef1-4f1a-bda2-08209c244b31)
-  )
-  (label "CLK" (at 96.012 61.849 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 94e81742-b2f6-4238-b532-744ecb323f65)
-  )
-  (label "GND" (at 96.012 64.389 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 992b6666-9ec3-4a19-affc-00bbd5dfa370)
-  )
-  (label "DAT2" (at 67.945 65.278 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid abfc1d4c-2d3b-4aa1-80a6-873351af03c0)
-  )
-  (label "DAT0" (at 96.012 66.929 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid c3afc8a3-19c6-4fda-ac22-5455ae302504)
-  )
-  (label "CMD" (at 67.945 62.738 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e30c75d6-20dc-40ed-bc09-b275b42edd14)
-  )
-  (label "DAT3" (at 96.012 54.229 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid fcb39211-2764-424e-b08f-839f3661ad60)
-  )
-
-  (symbol (lib_id "Connector:Micro_SD_Card_Det1") (at 118.872 61.849 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1337ca94-d564-4782-a2f5-f233c5f6cefe)
-    (property "Reference" "J1" (at 119.507 42.3291 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Micro_SD_Card_Det1" (at 119.507 44.2501 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "footprints:PJS008U-3000-0" (at 170.942 44.069 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf" (at 118.872 59.309 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 36adbdbd-fad8-4fdb-bd26-64746aad4f21))
-    (pin "10" (uuid 2f474ede-a44b-41e2-871b-8c85643995ba))
-    (pin "2" (uuid b7b7caa8-7a3f-466b-beb2-db9612d8a550))
-    (pin "3" (uuid 3356c73f-5343-40d5-a14a-5a164c540558))
-    (pin "4" (uuid 6ae670c5-7da6-4376-8259-b058766d2f58))
-    (pin "5" (uuid 03a4e754-783e-492e-a715-24c4da8a1b24))
-    (pin "6" (uuid acc42e5c-7da5-40df-b6bb-7e09b3af48a2))
-    (pin "7" (uuid 6000b930-e464-4c9a-8618-3fffcaeee3d7))
-    (pin "8" (uuid 78af600d-f1ca-4848-b602-70d682623703))
-    (pin "9" (uuid 47dfb5c3-81f0-4f6e-b29e-eccf0577b918))
-    (instances
-      (project "expander_usb_sd"
-        (path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
-          (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_02x04_Odd_Even") (at 60.325 60.198 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1674b7dc-372f-4ce7-ae7f-0cdeade8482d)
-    (property "Reference" "SD_connector1" (at 61.468 48.895 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_02x04_Odd_Even" (at 61.595 44.577 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" (at 60.325 60.198 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 60.325 60.198 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c5505b82-7be4-429c-a0ca-8572e04afbeb))
-    (pin "2" (uuid dd5e33b0-a828-454e-8288-ad5ab13f3f24))
-    (pin "3" (uuid 4e92d757-5883-4e29-ba0c-f26c5775bf07))
-    (pin "4" (uuid 515895af-27a8-4784-bea1-cea4b3786d21))
-    (pin "5" (uuid b6f2ea91-e17e-478d-9aeb-d9d870beadf8))
-    (pin "6" (uuid 03f8123f-6134-49b3-803a-9b0478627c4b))
-    (pin "7" (uuid 06dbedb2-837c-4524-887e-f32b86a5fdd6))
-    (pin "8" (uuid cd448d01-b5c0-4e68-84f6-867ebc88791d))
-    (instances
-      (project "expander_usb_sd"
-        (path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
-          (reference "SD_connector1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 82.042 133.858 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1e0a0d11-0aab-4ada-8dbc-2d18ce34a69c)
-    (property "Reference" "J1-TeensyPower1" (at 73.533 131.826 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "USB power - Teensy device" (at 68.199 129.54 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 82.042 133.858 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 82.042 133.858 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cf4f98e4-361e-4062-8fa7-f8e8ab3a34fb))
-    (pin "2" (uuid d75574bb-e3cd-4422-a080-51e57eeeaf35))
-    (instances
-      (project "expander_usb_sd"
-        (path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
-          (reference "J1-TeensyPower1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 219.837 106.172 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1e769e63-8e67-4575-8bfd-9b056e501e28)
-    (property "Reference" "J2-USBHostPower1" (at 210.693 104.267 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "USB power - host" (at 210.82 101.981 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 219.837 106.172 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 219.837 106.172 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8eeef3bc-5e06-4dde-8a10-28c97f29eddc))
-    (pin "2" (uuid d557ddd2-95a4-4e91-8f83-b71c747c5247))
-    (instances
-      (project "expander_usb_sd"
-        (path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
-          (reference "J2-USBHostPower1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x05_Pin") (at 233.553 116.332 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7f23758a-f461-4d70-aa2e-1ae5db21f020)
-    (property "Reference" "J2" (at 234.95 116.967 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Internal_USB_Host_Teensy" (at 237.109 116.84 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (at 233.553 116.332 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 233.553 116.332 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c60066bd-4c25-4dc2-af07-0a15e01f2680))
-    (pin "2" (uuid 0e77c5ee-ab5b-44fe-be94-77b231939c3f))
-    (pin "3" (uuid 5c3aab26-be84-4f53-b971-449b3e609145))
-    (pin "4" (uuid 091fb784-24cd-4c79-8d11-0a4acf29339d))
-    (pin "5" (uuid 2270140d-f580-43ca-86a9-d544b5882472))
-    (instances
-      (project "expander_usb_sd"
-        (path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
-          (reference "J2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 262.382 120.396 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 87a6a331-0e01-4474-b555-17a15a404466)
-    (property "Reference" "H2" (at 264.922 119.7523 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 264.922 121.6733 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 262.382 120.396 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 262.382 120.396 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "expander_usb_sd"
-        (path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
-          (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 139.192 74.549 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8d0abb30-1d19-46dc-a06a-2483a0857257)
-    (property "Reference" "#PWR01" (at 145.542 74.549 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 142.367 74.8658 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 139.192 74.549 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 139.192 74.549 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bacc7eaf-b0a2-4ebb-a0e2-38a6113ac0fb))
-    (instances
-      (project "expander_usb_sd"
-        (path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 262.382 110.871 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a81ad483-8d80-48ec-8db6-369045bfc3bd)
-    (property "Reference" "H1" (at 264.922 110.2273 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 264.922 112.1483 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 262.382 110.871 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 262.382 110.871 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "expander_usb_sd"
-        (path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
-          (reference "H1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x05_Pin") (at 64.897 144.018 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid aefc78a4-b5f8-45f1-adc8-cf4010503fcf)
-    (property "Reference" "J6-USBHost1" (at 61.214 139.7 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "USB 5 pin to frontpanel/Type C" (at 57.15 128.524 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (at 64.897 144.018 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 64.897 144.018 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9f347c88-5183-44d5-ab78-a954c9423c52))
-    (pin "2" (uuid c3f0268b-0549-4765-a106-a168297b7d28))
-    (pin "3" (uuid 37dc43b7-f795-4975-8b71-ed0e5038408d))
-    (pin "4" (uuid 8da91ee4-b38d-4b57-9b56-4c6159204c8f))
-    (pin "5" (uuid 5e138062-ea70-45dd-a771-7ca3c3c042a3))
-    (instances
-      (project "expander_usb_sd"
-        (path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
-          (reference "J6-USBHost1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "USB-A1VSB6:USB-A1VSB6") (at 199.644 116.332 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid bac6cc8c-0572-4514-95c8-f05c17dac504)
-    (property "Reference" "External_USB_A_Host1" (at 199.263 135.255 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "USB_A" (at 199.644 107.6231 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "USB-A1VSB6:ONSHORE_USB-A1VSB6" (at 199.644 116.332 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Datasheet" " ~" (at 199.644 116.332 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PARTREV" "D" (at 199.644 116.332 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "STANDARD" "Manufacturer Recommendation" (at 199.644 116.332 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "MANUFACTURER" "On Shore Technology" (at 199.644 116.332 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (pin "1" (uuid d3fcc754-8c26-469b-a235-1eb739084a39))
-    (pin "2" (uuid bd6cc37b-9dd9-4ab6-82fd-b41818067f95))
-    (pin "3" (uuid 4a29694d-0d6e-4681-9c13-ac63875a993d))
-    (pin "4" (uuid 19d8cffc-abb1-41d2-881b-30266e6a149f))
-    (pin "S1" (uuid 394b0eed-e5a1-4b38-933b-0fa4330fcb58))
-    (pin "S2" (uuid 68c9d6b7-58e3-424c-892d-d02809ce3652))
-    (instances
-      (project "expander_usb_sd"
-        (path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
-          (reference "External_USB_A_Host1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x05_Pin") (at 96.139 144.018 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d87541c5-4504-430f-9504-186ac00542eb)
-    (property "Reference" "J5-TeensyMicroUSB1" (at 99.441 143.764 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "USB 5 pin to Teensy/MicroUSB" (at 103.759 143.002 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (at 96.139 144.018 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 96.139 144.018 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8e6ed871-f187-4524-bdcd-d0572d85bc96))
-    (pin "2" (uuid 1a794d1f-3e40-4f1d-8f22-417c49b1fb01))
-    (pin "3" (uuid 4255f798-7d57-4965-9725-ba99a7bff922))
-    (pin "4" (uuid f0e4fa16-f78a-4bcc-bf0e-7fe8377fefd3))
-    (pin "5" (uuid c398dacb-c170-4a9d-8b22-f1786dc9f4e1))
-    (instances
-      (project "expander_usb_sd"
-        (path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
-          (reference "J5-TeensyMicroUSB1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a9e4ad89-ca26-464a-b121-56ca282a5e7f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x05_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x05_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Micro_SD_Card_Det1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -16.51 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Micro_SD_Card_Det1"
+				(at 16.51 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 52.07 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Micro SD Card Socket with one card detection pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector SD microsd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "microSD*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Micro_SD_Card_Det1_0_1"
+				(rectangle
+					(start -7.62 -6.985)
+					(end -5.08 -8.255)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -4.445)
+					(end -5.08 -5.715)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -1.905)
+					(end -5.08 -3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 0.635)
+					(end -5.08 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 3.175)
+					(end -5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 5.715)
+					(end -5.08 4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 8.255)
+					(end -5.08 6.985)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 10.795)
+					(end -5.08 9.525)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 15.24) (xy 16.51 16.51) (xy -19.05 16.51) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -8.89) (xy -8.89 11.43) (xy -1.27 11.43) (xy 2.54 15.24) (xy 3.81 15.24) (xy 3.81 13.97)
+						(xy 6.35 13.97) (xy 7.62 15.24) (xy 20.32 15.24) (xy 20.32 -8.89) (xy -8.89 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Micro_SD_Card_Det1_1_1"
+				(pin bidirectional line
+					(at -22.86 10.16 0)
+					(length 3.81)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -12.7 180)
+					(length 3.81)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 7.62 0)
+					(length 3.81)
+					(name "DAT3/CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 5.08 0)
+					(length 3.81)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 2.54 0)
+					(length 3.81)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 0 0)
+					(length 3.81)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -2.54 0)
+					(length 3.81)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -5.08 0)
+					(length 3.81)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -7.62 0)
+					(length 3.81)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -12.7 0)
+					(length 3.81)
+					(name "DET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x04_Odd_Even"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x04_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "PCM_4ms_Power-symbol:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "USB-A1VSB6:USB-A1VSB6"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.334 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "USB-A1VSB6"
+				(at -5.08 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "USB-A1VSB6:ONSHORE_USB-A1VSB6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "On Shore Technology"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "USB-A1VSB6_0_0"
+				(rectangle
+					(start -5.08 -12.7)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "VUSB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -10.16 0)
+					(length 5.08)
+					(name "SHIELD__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 209.55 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ca370a3-944a-4d0a-b652-ea8fdb25ff6e")
+	)
+	(junction
+		(at 228.6 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e345db2f-656b-4d43-af98-00b1b833e57b")
+	)
+	(wire
+		(pts
+			(xy 96.012 66.929) (xy 75.565 66.929)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b78a97-19d1-4b76-aae1-b62856cb87a2")
+	)
+	(wire
+		(pts
+			(xy 69.977 149.098) (xy 91.059 149.098)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066571ec-75e6-43b1-981a-530e8428c278")
+	)
+	(wire
+		(pts
+			(xy 55.245 65.278) (xy 39.116 65.278)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14223d48-62f9-4931-8cde-217531c8dc78")
+	)
+	(wire
+		(pts
+			(xy 85.471 64.389) (xy 85.471 67.437)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "193f7bd4-e7dd-4496-b07e-33327035f2d9")
+	)
+	(wire
+		(pts
+			(xy 82.042 138.938) (xy 91.059 138.938)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd71171-ee44-4ea2-8dbc-648740527ef3")
+	)
+	(wire
+		(pts
+			(xy 209.55 116.84) (xy 228.6 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26963673-939a-48bd-afb8-f9e350ca4738")
+	)
+	(wire
+		(pts
+			(xy 217.17 111.76) (xy 209.55 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5271bb-c09b-4c9c-9e0f-a96aa9e6a420")
+	)
+	(wire
+		(pts
+			(xy 85.471 62.738) (xy 85.471 56.769)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca62113-2f26-4293-9a1a-64ab0ce317cf")
+	)
+	(wire
+		(pts
+			(xy 75.565 57.658) (xy 67.945 57.658)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3508c07c-187f-4c03-820e-e9f3476228fe")
+	)
+	(wire
+		(pts
+			(xy 85.471 67.437) (xy 49.276 67.437)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36747234-e2e2-43dd-af55-d437f54de3e3")
+	)
+	(wire
+		(pts
+			(xy 96.012 64.389) (xy 85.471 64.389)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3963370b-bbfd-4632-809f-435f06f5d7e9")
+	)
+	(wire
+		(pts
+			(xy 209.55 124.46) (xy 209.55 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f61c966-3704-4b9b-811c-723b1aea257a")
+	)
+	(wire
+		(pts
+			(xy 67.945 65.278) (xy 83.439 65.278)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f8c0cf-36c8-432a-8f76-641f940161e9")
+	)
+	(wire
+		(pts
+			(xy 87.884 68.326) (xy 87.884 59.309)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455dd3f1-561a-45b7-bf7a-2bb6161c4efe")
+	)
+	(wire
+		(pts
+			(xy 228.6 121.92) (xy 209.55 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da8665b-922c-4e82-9b24-88b71ecc5577")
+	)
+	(wire
+		(pts
+			(xy 69.977 141.478) (xy 91.059 141.478)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "503ad1a0-7a74-4774-a7e8-a6f972c20d6e")
+	)
+	(wire
+		(pts
+			(xy 46.99 68.326) (xy 87.884 68.326)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c23a8f-03ef-4cb1-b87b-5a95245c04f7")
+	)
+	(wire
+		(pts
+			(xy 228.6 119.38) (xy 228.6 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5374ad57-17f8-42d8-91cf-24a4ec3e8b0e")
+	)
+	(wire
+		(pts
+			(xy 87.884 59.309) (xy 96.012 59.309)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "554b5758-8f75-484f-8efc-ba18e2cd3095")
+	)
+	(wire
+		(pts
+			(xy 46.99 62.738) (xy 46.99 68.326)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "714409a3-42df-42f2-8436-50340f0c9654")
+	)
+	(wire
+		(pts
+			(xy 43.053 57.658) (xy 43.053 69.469)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776750ce-dc65-48db-bfd2-8350d109e569")
+	)
+	(wire
+		(pts
+			(xy 55.245 57.658) (xy 43.053 57.658)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7770de46-9aaa-4dad-8d97-4f7157cd7ba5")
+	)
+	(wire
+		(pts
+			(xy 219.71 111.76) (xy 228.6 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b82968c-d497-472a-a6a5-dbf618402fcf")
+	)
+	(wire
+		(pts
+			(xy 85.471 56.769) (xy 96.012 56.769)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c9d5d7-42fd-44c1-8f1d-0d73d2ba625f")
+	)
+	(wire
+		(pts
+			(xy 69.977 146.558) (xy 91.059 146.558)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1115a3-c369-4ec8-99b9-774ee3313394")
+	)
+	(wire
+		(pts
+			(xy 83.439 65.278) (xy 83.439 51.689)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa31b203-91a3-4783-9b4e-6f00be186bf8")
+	)
+	(wire
+		(pts
+			(xy 89.916 60.198) (xy 89.916 61.849)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acdeb8a3-e83f-4a64-aaf7-de565bdb26a0")
+	)
+	(wire
+		(pts
+			(xy 39.116 65.278) (xy 39.116 54.229)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26b3a2f-b65d-418c-a1bd-20d5f75858cd")
+	)
+	(wire
+		(pts
+			(xy 67.945 60.198) (xy 89.916 60.198)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c36c5de1-d01b-41b1-bf11-364691e208f2")
+	)
+	(wire
+		(pts
+			(xy 89.916 61.849) (xy 96.012 61.849)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c39d712d-8e98-45e4-a3a8-188de0302d8c")
+	)
+	(wire
+		(pts
+			(xy 209.55 121.92) (xy 209.55 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4da805d-84d1-4740-913e-e6d03b2d4c7f")
+	)
+	(wire
+		(pts
+			(xy 69.977 144.018) (xy 91.059 144.018)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf267fdd-671e-4b23-804e-fc99dd8e84c2")
+	)
+	(wire
+		(pts
+			(xy 43.053 69.469) (xy 96.012 69.469)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d860ea23-5f6d-4d87-9135-a74f887715e1")
+	)
+	(wire
+		(pts
+			(xy 39.116 54.229) (xy 96.012 54.229)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb6c2e0-b7f9-40d1-b7d8-f965c84469af")
+	)
+	(wire
+		(pts
+			(xy 49.276 60.198) (xy 55.245 60.198)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de5fdb67-b2cc-4ad7-8cc0-2ee7c1c803d6")
+	)
+	(wire
+		(pts
+			(xy 83.439 51.689) (xy 96.012 51.689)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df07c455-ac0a-44ad-8aac-2cc8c2ab997f")
+	)
+	(wire
+		(pts
+			(xy 209.55 114.3) (xy 228.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebcc9fe8-4421-4528-b4cd-124034986131")
+	)
+	(wire
+		(pts
+			(xy 69.977 138.938) (xy 79.502 138.938)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb45719-c448-41ab-926d-af3f8ba51bcc")
+	)
+	(wire
+		(pts
+			(xy 49.276 67.437) (xy 49.276 60.198)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd89bb3-df82-4c74-a2fe-9b4b4d06d7f0")
+	)
+	(wire
+		(pts
+			(xy 67.945 62.738) (xy 85.471 62.738)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f04f5ee1-caab-4f51-ae13-e53378a3e33b")
+	)
+	(wire
+		(pts
+			(xy 75.565 66.929) (xy 75.565 57.658)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7314e69-f614-49c9-a297-4f3ab10cf20b")
+	)
+	(wire
+		(pts
+			(xy 55.245 62.738) (xy 46.99 62.738)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7870f4a-87b8-4509-9a38-e8ebb7496f16")
+	)
+	(text "USB Host connector"
+		(exclude_from_sim no)
+		(at 208.915 93.472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "04378f38-2349-4e9d-98a7-ebf13a7e97f1")
+	)
+	(text "SD Card"
+		(exclude_from_sim no)
+		(at 82.804 33.909 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5c88cd5-6948-442c-a8e0-b30cdac75d03")
+	)
+	(text "USB Device connector"
+		(exclude_from_sim no)
+		(at 71.12 122.555 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f991cdce-08f5-48e8-8983-8022be9d46b9")
+	)
+	(label "CLK"
+		(at 67.945 60.198 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01484933-4115-4fd1-8f98-e2105afaa1a5")
+	)
+	(label "DAT1"
+		(at 55.245 57.658 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19555e8a-cc00-476d-bc0f-2a2e726a3d04")
+	)
+	(label "DAT3"
+		(at 55.245 65.278 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "255a0aef-6e92-4918-95c3-dc5d21b359d8")
+	)
+	(label "DAT1"
+		(at 96.012 69.469 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28335cb4-4fae-45ec-a979-b867a68c40a8")
+	)
+	(label "DAT2"
+		(at 96.012 51.689 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d05d6f7-4ad3-4f76-bfea-cd55f4c56d0b")
+	)
+	(label "VCC"
+		(at 96.012 59.309 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "318d2e03-f3da-4b05-817d-f39c84b5f0ea")
+	)
+	(label "VCC"
+		(at 55.245 62.738 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a7f44aa-0348-4ef1-a005-9fb186d9b22e")
+	)
+	(label "GND"
+		(at 55.245 60.198 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e5aa7c5-2919-4a29-a13c-6a8f011d6e06")
+	)
+	(label "CMD"
+		(at 96.012 56.769 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "547c386d-715f-4c36-a36e-785114bac071")
+	)
+	(label "DAT0"
+		(at 67.945 57.658 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56114a22-1ef1-4f1a-bda2-08209c244b31")
+	)
+	(label "CLK"
+		(at 96.012 61.849 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94e81742-b2f6-4238-b532-744ecb323f65")
+	)
+	(label "GND"
+		(at 96.012 64.389 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "992b6666-9ec3-4a19-affc-00bbd5dfa370")
+	)
+	(label "DAT2"
+		(at 67.945 65.278 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abfc1d4c-2d3b-4aa1-80a6-873351af03c0")
+	)
+	(label "DAT0"
+		(at 96.012 66.929 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3afc8a3-19c6-4fda-ac22-5455ae302504")
+	)
+	(label "CMD"
+		(at 67.945 62.738 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e30c75d6-20dc-40ed-bc09-b275b42edd14")
+	)
+	(label "DAT3"
+		(at 96.012 54.229 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fcb39211-2764-424e-b08f-839f3661ad60")
+	)
+	(symbol
+		(lib_id "Connector:Micro_SD_Card_Det1")
+		(at 118.872 61.849 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1337ca94-d564-4782-a2f5-f233c5f6cefe")
+		(property "Reference" "J1"
+			(at 119.507 42.3291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Micro_SD_Card_Det1"
+			(at 119.507 44.2501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:PJS008U-3000-0"
+			(at 170.942 44.069 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
+			(at 118.872 59.309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.872 61.849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36adbdbd-fad8-4fdb-bd26-64746aad4f21")
+		)
+		(pin "10"
+			(uuid "2f474ede-a44b-41e2-871b-8c85643995ba")
+		)
+		(pin "2"
+			(uuid "b7b7caa8-7a3f-466b-beb2-db9612d8a550")
+		)
+		(pin "3"
+			(uuid "3356c73f-5343-40d5-a14a-5a164c540558")
+		)
+		(pin "4"
+			(uuid "6ae670c5-7da6-4376-8259-b058766d2f58")
+		)
+		(pin "5"
+			(uuid "03a4e754-783e-492e-a715-24c4da8a1b24")
+		)
+		(pin "6"
+			(uuid "acc42e5c-7da5-40df-b6bb-7e09b3af48a2")
+		)
+		(pin "7"
+			(uuid "6000b930-e464-4c9a-8618-3fffcaeee3d7")
+		)
+		(pin "8"
+			(uuid "78af600d-f1ca-4848-b602-70d682623703")
+		)
+		(pin "9"
+			(uuid "47dfb5c3-81f0-4f6e-b29e-eccf0577b918")
+		)
+		(instances
+			(project "expander_usb_sd"
+				(path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 60.325 60.198 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1674b7dc-372f-4ce7-ae7f-0cdeade8482d")
+		(property "Reference" "SD_connector1"
+			(at 61.468 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x04_Odd_Even"
+			(at 61.595 44.577 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+			(at 60.325 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.325 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.325 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5505b82-7be4-429c-a0ca-8572e04afbeb")
+		)
+		(pin "2"
+			(uuid "dd5e33b0-a828-454e-8288-ad5ab13f3f24")
+		)
+		(pin "3"
+			(uuid "4e92d757-5883-4e29-ba0c-f26c5775bf07")
+		)
+		(pin "4"
+			(uuid "515895af-27a8-4784-bea1-cea4b3786d21")
+		)
+		(pin "5"
+			(uuid "b6f2ea91-e17e-478d-9aeb-d9d870beadf8")
+		)
+		(pin "6"
+			(uuid "03f8123f-6134-49b3-803a-9b0478627c4b")
+		)
+		(pin "7"
+			(uuid "06dbedb2-837c-4524-887e-f32b86a5fdd6")
+		)
+		(pin "8"
+			(uuid "cd448d01-b5c0-4e68-84f6-867ebc88791d")
+		)
+		(instances
+			(project "expander_usb_sd"
+				(path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
+					(reference "SD_connector1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 82.042 133.858 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e0a0d11-0aab-4ada-8dbc-2d18ce34a69c")
+		(property "Reference" "J1-TeensyPower1"
+			(at 73.533 131.826 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB power - Teensy device"
+			(at 68.199 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 82.042 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.042 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.042 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf4f98e4-361e-4062-8fa7-f8e8ab3a34fb")
+		)
+		(pin "2"
+			(uuid "d75574bb-e3cd-4422-a080-51e57eeeaf35")
+		)
+		(instances
+			(project "expander_usb_sd"
+				(path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
+					(reference "J1-TeensyPower1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 219.71 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e769e63-8e67-4575-8bfd-9b056e501e28")
+		(property "Reference" "USBHostPower1"
+			(at 210.566 104.775 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB power - host"
+			(at 210.693 102.489 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8eeef3bc-5e06-4dde-8a10-28c97f29eddc")
+		)
+		(pin "2"
+			(uuid "d557ddd2-95a4-4e91-8f83-b71c747c5247")
+		)
+		(instances
+			(project "expander_usb_sd"
+				(path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
+					(reference "USBHostPower1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:GND")
+		(at 209.55 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22580d0b-ffdc-4ce2-87be-eb6927a2f429")
+		(property "Reference" "#PWR02"
+			(at 215.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.725 119.6968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd2ab34f-724d-439b-823f-6d320847560a")
+		)
+		(instances
+			(project "expander_usb_sd"
+				(path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 233.68 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f23758a-f461-4d70-aa2e-1ae5db21f020")
+		(property "Reference" "J2"
+			(at 235.077 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Internal_USB_Host_Teensy"
+			(at 237.236 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 233.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c60066bd-4c25-4dc2-af07-0a15e01f2680")
+		)
+		(pin "2"
+			(uuid "0e77c5ee-ab5b-44fe-be94-77b231939c3f")
+		)
+		(pin "3"
+			(uuid "5c3aab26-be84-4f53-b971-449b3e609145")
+		)
+		(pin "4"
+			(uuid "091fb784-24cd-4c79-8d11-0a4acf29339d")
+		)
+		(pin "5"
+			(uuid "2270140d-f580-43ca-86a9-d544b5882472")
+		)
+		(instances
+			(project "expander_usb_sd"
+				(path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 262.382 120.396 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87a6a331-0e01-4474-b555-17a15a404466")
+		(property "Reference" "H2"
+			(at 264.922 119.7523 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 264.922 121.6733 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 262.382 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.382 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.382 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "expander_usb_sd"
+				(path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:GND")
+		(at 139.192 74.549 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d0abb30-1d19-46dc-a06a-2483a0857257")
+		(property "Reference" "#PWR01"
+			(at 145.542 74.549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.367 74.8658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.192 74.549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.192 74.549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.192 74.549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bacc7eaf-b0a2-4ebb-a0e2-38a6113ac0fb")
+		)
+		(instances
+			(project "expander_usb_sd"
+				(path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 262.382 110.871 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a81ad483-8d80-48ec-8db6-369045bfc3bd")
+		(property "Reference" "H1"
+			(at 264.922 110.2273 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 264.922 112.1483 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 262.382 110.871 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.382 110.871 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.382 110.871 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "expander_usb_sd"
+				(path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 64.897 144.018 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aefc78a4-b5f8-45f1-adc8-cf4010503fcf")
+		(property "Reference" "J6-USBHost1"
+			(at 61.214 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USB 5 pin to frontpanel/Type C"
+			(at 57.15 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 64.897 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.897 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.897 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f347c88-5183-44d5-ab78-a954c9423c52")
+		)
+		(pin "2"
+			(uuid "c3f0268b-0549-4765-a106-a168297b7d28")
+		)
+		(pin "3"
+			(uuid "37dc43b7-f795-4975-8b71-ed0e5038408d")
+		)
+		(pin "4"
+			(uuid "8da91ee4-b38d-4b57-9b56-4c6159204c8f")
+		)
+		(pin "5"
+			(uuid "5e138062-ea70-45dd-a771-7ca3c3c042a3")
+		)
+		(instances
+			(project "expander_usb_sd"
+				(path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
+					(reference "J6-USBHost1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "USB-A1VSB6:USB-A1VSB6")
+		(at 199.39 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bac6cc8c-0572-4514-95c8-f05c17dac504")
+		(property "Reference" "External_USB_A_Host1"
+			(at 199.009 135.763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_A"
+			(at 199.39 108.1311 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "USB-A1VSB6:ONSHORE_USB-A1VSB6"
+			(at 199.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" " ~"
+			(at 199.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 199.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 199.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "On Shore Technology"
+			(at 199.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3fcc754-8c26-469b-a235-1eb739084a39")
+		)
+		(pin "2"
+			(uuid "bd6cc37b-9dd9-4ab6-82fd-b41818067f95")
+		)
+		(pin "3"
+			(uuid "4a29694d-0d6e-4681-9c13-ac63875a993d")
+		)
+		(pin "4"
+			(uuid "19d8cffc-abb1-41d2-881b-30266e6a149f")
+		)
+		(pin "S1"
+			(uuid "394b0eed-e5a1-4b38-933b-0fa4330fcb58")
+		)
+		(pin "S2"
+			(uuid "68c9d6b7-58e3-424c-892d-d02809ce3652")
+		)
+		(instances
+			(project "expander_usb_sd"
+				(path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
+					(reference "External_USB_A_Host1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 96.139 144.018 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d87541c5-4504-430f-9504-186ac00542eb")
+		(property "Reference" "J5-TeensyMicroUSB1"
+			(at 99.441 143.764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB 5 pin to Teensy/MicroUSB"
+			(at 103.759 143.002 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 96.139 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.139 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.139 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e6ed871-f187-4524-bdcd-d0572d85bc96")
+		)
+		(pin "2"
+			(uuid "1a794d1f-3e40-4f1d-8f22-417c49b1fb01")
+		)
+		(pin "3"
+			(uuid "4255f798-7d57-4965-9725-ba99a7bff922")
+		)
+		(pin "4"
+			(uuid "f0e4fa16-f78a-4bcc-bf0e-7fe8377fefd3")
+		)
+		(pin "5"
+			(uuid "c398dacb-c170-4a9d-8b22-f1786dc9f4e1")
+		)
+		(instances
+			(project "expander_usb_sd"
+				(path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
+					(reference "J5-TeensyMicroUSB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
