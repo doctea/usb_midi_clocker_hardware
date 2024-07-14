@@ -1,0 +1,10 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+External_USB_A_Host1,ONSHORE_USB-A1VSB6,1,USB_A,
+"H1, H2",MountingHole_3.2mm_M3,2,MountingHole,
+J1,PJS008U-3000-0,1,Micro_SD_Card_Det1,
+J1-TeensyPower1,PinHeader_1x02_P2.54mm_Vertical,1,USB power - Teensy device,
+J2,PinHeader_1x05_P2.54mm_Vertical,1,Internal_USB_Host_Teensy,
+J5-TeensyMicroUSB1,PinHeader_1x05_P2.54mm_Vertical,1,USB 5 pin to Teensy/MicroUSB,
+J6-USBHost1,PinHeader_1x05_P2.54mm_Vertical,1,USB 5 pin to frontpanel/Type C,
+SD_connector1,PinHeader_2x04_P2.54mm_Vertical,1,Conn_02x04_Odd_Even,
+USBHostPower1,PinHeader_1x02_P2.54mm_Vertical,1,USB power - host,

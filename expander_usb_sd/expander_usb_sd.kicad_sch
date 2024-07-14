@@ -1507,6 +1507,12 @@
 		(uuid "5ca370a3-944a-4d0a-b652-ea8fdb25ff6e")
 	)
 	(junction
+		(at 209.55 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "965d28d3-5aef-489e-8bd5-7f780edb74bb")
+	)
+	(junction
 		(at 228.6 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1571,16 +1577,6 @@
 			(type default)
 		)
 		(uuid "26963673-939a-48bd-afb8-f9e350ca4738")
-	)
-	(wire
-		(pts
-			(xy 217.17 111.76) (xy 209.55 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b5271bb-c09b-4c9c-9e0f-a96aa9e6a420")
 	)
 	(wire
 		(pts
@@ -1704,6 +1700,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 111.76) (xy 217.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df22e0c-c102-4919-9232-c8f253276240")
+	)
+	(wire
+		(pts
 			(xy 46.99 62.738) (xy 46.99 68.326)
 		)
 		(stroke
@@ -1751,6 +1757,16 @@
 			(type default)
 		)
 		(uuid "80c9d5d7-42fd-44c1-8f1d-0d73d2ba625f")
+	)
+	(wire
+		(pts
+			(xy 209.55 119.38) (xy 209.55 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f698483-832e-4691-b4c7-3794740dbda1")
 	)
 	(wire
 		(pts
@@ -2457,73 +2473,6 @@
 			(project "expander_usb_sd"
 				(path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
 					(reference "USBHostPower1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Power-symbol:GND")
-		(at 209.55 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22580d0b-ffdc-4ce2-87be-eb6927a2f429")
-		(property "Reference" "#PWR02"
-			(at 215.9 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.725 119.6968 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd2ab34f-724d-439b-823f-6d320847560a")
-		)
-		(instances
-			(project "expander_usb_sd"
-				(path "/a9e4ad89-ca26-464a-b121-56ca282a5e7f"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)

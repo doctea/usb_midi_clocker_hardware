@@ -1,0 +1,9 @@
+﻿Designator,Mid X,Mid Y,Rotation,Layer
+External_USB_A_Host1,130.1625,-66.65,270.0,top
+J1,129.015799,-98.878,90.0,top
+J1-TeensyPower1,129.265,-108.3,90.0,bottom
+J2,132.4,-81.375,0.0,bottom
+J5-TeensyMicroUSB1,131.5,-119.225,0.0,bottom
+J6-USBHost1,126.8,-119.235,0.0,bottom
+SD_connector1,127.315,-85.35,0.0,bottom
+USBHostPower1,127.415,-77.05,270.0,top
