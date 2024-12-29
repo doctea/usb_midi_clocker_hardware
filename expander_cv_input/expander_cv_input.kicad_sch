@@ -1,1323 +1,3584 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid e5e07d63-142e-479c-89c4-9bf280763543)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Connector_Audio:AudioJack2_SwitchT" (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 8.89 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "AudioJack2_SwitchT" (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "audio jack receptacle mono headphones phone TS connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Jack*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "AudioJack2_SwitchT_0_1"
-        (rectangle (start -2.54 0) (end -3.81 -2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 1.778 -0.254)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0.635 -0.635)
-            (xy 1.27 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -2.54)
-            (xy 1.778 -2.54)
-            (xy 1.778 -0.254)
-            (xy 1.524 -0.762)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 2.54)
-            (xy -0.635 2.54)
-            (xy -0.635 0)
-            (xy -1.27 -0.635)
-            (xy -1.905 0)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 2.54 3.81) (end -2.54 -5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "AudioJack2_SwitchT_1_1"
-        (pin passive line (at 5.08 2.54 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "S" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "T" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -2.54 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "TN" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector_Generic:Conn_01x05" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x05" (at 0 -7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x05_1_1"
-        (rectangle (start -1.27 -4.953) (end 0 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 5.207) (end 0 4.953)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 6.35) (end 1.27 -6.35)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -5.08 5.08 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
-          (name "Pin_5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector_Generic:Conn_02x04_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 1.27 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_02x04_Odd_Even" (at 1.27 -7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_2x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_02x04_Odd_Even_1_1"
-        (rectangle (start -1.27 -4.953) (end 0 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 3.81) (end 3.81 -6.35)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (rectangle (start 3.81 -4.953) (end 2.54 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.81 -2.413) (end 2.54 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.81 0.127) (end 2.54 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.81 2.667) (end 2.54 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 2.54 180) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 0 180) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 -2.54 180) (length 3.81)
-          (name "Pin_6" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
-          (name "Pin_7" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 -5.08 180) (length 3.81)
-          (name "Pin_8" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.254 1.778 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C_Small" (at 0.254 -2.032 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "capacitor cap" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_Small_0_1"
-        (polyline
-          (pts
-            (xy -1.524 -0.508)
-            (xy 1.524 -0.508)
-          )
-          (stroke (width 0.3302) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 0.508)
-            (xy 1.524 0.508)
-          )
-          (stroke (width 0.3048) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 124.4092 96.52) (diameter 0) (color 0 0 0 0)
-    (uuid 99626d95-f85d-411e-b914-fe6faa338fb7)
-  )
-  (junction (at 124.6632 40.4876) (diameter 0) (color 0 0 0 0)
-    (uuid bcfe6569-ea54-4024-b031-34eea8fb6d08)
-  )
-
-  (wire (pts (xy 112.7252 96.52) (xy 124.4092 96.52))
-    (stroke (width 0) (type default))
-    (uuid 355fb94c-6197-4812-b43c-142b14150bec)
-  )
-  (wire (pts (xy 124.6632 40.4876) (xy 136.3472 40.4876))
-    (stroke (width 0) (type default))
-    (uuid 8cccffb7-a77a-404b-80d9-7fef2569df74)
-  )
-  (wire (pts (xy 112.9792 40.4876) (xy 124.6632 40.4876))
-    (stroke (width 0) (type default))
-    (uuid d88d288c-b5db-4cda-ac6e-30bd73c64ce4)
-  )
-  (wire (pts (xy 124.4092 96.52) (xy 136.0932 96.52))
-    (stroke (width 0) (type default))
-    (uuid ed455b33-3d54-4ca4-b220-f1bbfccb34e7)
-  )
-
-  (global_label "ADS 1 Interrupt" (shape input) (at 112.9792 48.1076 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 0126d783-58b9-4fbc-b6ed-6d05d328e03d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 95.1964 48.1076 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "i2c SDA" (shape bidirectional) (at 40.386 99.06 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 1442742b-2b4f-4173-a018-6a31b35d4000)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 40.386 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "+5V" (shape input) (at 53.086 96.52 0)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 1767eeae-95fb-49f6-99f0-084128aaa5eb)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 53.086 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "DIG GND" (shape input) (at 53.086 93.98 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 17e93201-a648-4b29-9b45-5388ba5b704a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 63.7691 93.98 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "CV GND" (shape input) (at 136.3472 50.6476 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 1bd3e4be-1443-49da-a557-2e9265cccb51)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 145.5899 50.6476 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "i2c SCL" (shape input) (at 40.386 96.52 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 1ea37243-e596-4138-8a1a-b21a92a55e58)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 40.386 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "CV GND" (shape input) (at 50.9016 29.9212 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 201e8d5f-e86d-46ac-b730-b84752d234de)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 60.1443 29.9212 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "A5 input Frontboard" (shape input) (at 211.4296 147.8788 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 2461177e-0e40-4548-8d87-afa63d6fc342)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 233.2157 147.8788 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "DIG GND" (shape input) (at 50.9016 32.4612 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 251ee0b5-698d-415c-b4ee-a764f044ba41)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 61.5847 32.4612 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "CV GND" (shape input) (at 211.4296 150.4188 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 26cd9ff5-8565-4caa-99dd-35f8849a9708)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 220.6723 150.4188 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "CV GND" (shape input) (at 210.9216 124.2568 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 27362454-b047-4c11-ba44-acf29a641650)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 220.1643 124.2568 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "i2c SCL" (shape input) (at 112.7252 101.6 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 2c262e78-c3f9-42b8-86d5-8b500eb854e8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 103.3011 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "ADS 2 Interrupt" (shape input) (at 112.7252 104.14 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 3112a7ad-5c72-4f24-982e-0ac77b62bdeb)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 94.9424 104.14 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "DIG GND" (shape input) (at 112.9792 50.6476 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 32696c46-00a2-40a9-b7fd-5ceccb6d855c)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 102.2961 50.6476 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "+5V" (shape input) (at 53.086 99.06 0)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 33be033a-a9d6-44a0-8d8b-b85c7f67dee2)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 53.086 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "A4 input Frontboard" (shape input) (at 136.0932 101.6 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 40a8a8ca-f3c1-4fe7-8ead-68a0919eb501)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 157.8793 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "A3 input Frontboard" (shape input) (at 136.0932 99.06 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 50d1a375-f149-415a-a310-6672c7f5e303)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 157.8793 99.06 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "A0 input Frontboard" (shape input) (at 136.3472 43.0276 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 54dd5580-9463-422c-be12-c8fd7e370fc3)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 157.4791 43.0276 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "i2c SDA" (shape bidirectional) (at 38.2016 37.5412 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 5b621f0a-b95c-4d37-94f9-407b66dec4f9)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 38.2016 37.5412 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "i2c SDA" (shape bidirectional) (at 40.386 93.98 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 5c27ca08-b19c-4808-804f-8429abe2703c)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 40.386 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "A1 input Frontboard" (shape input) (at 210.2612 56.9468 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 5ecf086c-0601-48e4-86aa-1d5ee35b895a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 231.3931 56.9468 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "+5V" (shape input) (at 50.9016 35.0012 0)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 5fcf2dd8-ce8e-416d-8736-138ae1c08a30)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 50.9016 35.0012 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "CV GND" (shape input) (at 210.2612 54.4068 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 646646af-d260-4ff3-b366-e6d55920856f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 219.5039 54.4068 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "+5V" (shape input) (at 136.0932 96.52 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 722a2b67-5fc6-45cc-ac40-e4953f8a2ba2)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 136.0932 89.7437 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "CV GND" (shape input) (at 210.9216 129.3368 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 75a44f14-4c36-44e4-ba86-8cb52549bba6)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 220.1643 129.3368 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "A1 input Frontboard" (shape input) (at 136.3472 45.5676 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 7f7cf4ef-fa62-407e-a7f7-2a3eb20c163a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 157.4791 45.5676 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "A3 input Frontboard" (shape input) (at 210.6676 102.1588 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 80c1f3a7-d6b2-4006-873f-cd5b42a86b96)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 232.4537 102.1588 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "CV GND" (shape input) (at 210.2612 59.4868 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 83a629cb-cf31-4f8d-8545-8b2883db9479)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 219.5039 59.4868 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "i2c SCL" (shape input) (at 38.2016 35.0012 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 855a8569-6999-4206-a77c-b1be213c70ff)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 38.2016 35.0012 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "i2c SCL" (shape input) (at 38.2016 29.9212 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8e156b10-9563-4699-a9bc-378b22af0b2a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 38.2016 29.9212 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "CV GND" (shape input) (at 210.6676 99.6188 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 94762954-6f05-4e61-a79e-b071da6f1e4f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 219.9103 99.6188 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "A4 input Frontboard" (shape input) (at 210.9216 126.7968 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 98959417-462d-4381-8a64-7849c3ec450f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 232.7077 126.7968 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "A2 input Frontboard" (shape input) (at 210.7692 78.0288 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 9bb9e0c4-673f-4672-be81-fda207653fd4)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 231.9011 78.0288 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "A5 input Frontboard" (shape input) (at 136.0932 104.14 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 9cb97584-216b-4ac6-aff1-71a258f9ec95)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 157.8793 104.14 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "CV GND" (shape input) (at 79.8576 61.6204 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid a196fe3d-9232-44d4-b09e-39d450bd8534)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 89.1003 61.6204 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "+5V" (shape input) (at 112.9792 40.4876 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid a4d66d9c-19c9-4b0b-8f30-7ec1f0c60cab)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 112.9792 33.7113 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "+5V" (shape input) (at 136.3472 40.4876 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid a74ca2a6-1c86-4694-b71d-1cbac1e52722)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 136.3472 33.7113 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "+5V" (shape input) (at 112.7252 96.52 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid b05cbf54-1918-4279-a9be-5e6098e4716f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 112.7252 89.7437 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "CV GND" (shape input) (at 211.4296 145.3388 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid b6ae013a-2f7e-46bc-90a8-c00a7b7bed56)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 220.6723 145.3388 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "A2 input Frontboard" (shape input) (at 136.3472 48.1076 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid b7468736-f819-4efe-9b1e-6972981f45e7)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 157.4791 48.1076 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "+5V" (shape input) (at 50.9016 37.5412 0)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid b909788e-3bfa-4f7b-9a37-ac967eb7e7b8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 50.9016 37.5412 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "i2c SCL" (shape input) (at 112.9792 45.5676 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ba0f06ed-5d32-499d-95fe-4a00a178b697)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 103.5551 45.5676 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "A0 input Frontboard" (shape input) (at 210.0072 32.3088 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid bd9cbaf8-2e5d-4abf-9582-5e08a4cea3e8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 231.1391 32.3088 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "i2c SDA" (shape input) (at 112.9792 43.0276 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid c254b607-7288-4434-a044-0c7cfae915ba)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 103.4946 43.0276 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "CV GND" (shape input) (at 136.0932 106.68 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid c5e78765-8850-4520-ba91-f0abeb7f50dc)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 145.3359 106.68 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "i2c SDA" (shape input) (at 112.7252 99.06 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid c8e32e44-c4c2-4478-b237-d58607e6c5ca)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 103.2406 99.06 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "CV GND" (shape input) (at 210.0072 29.7688 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid cc483f98-2319-42fd-9fab-955792255901)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 219.2499 29.7688 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "i2c SCL" (shape input) (at 40.386 91.44 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid e110f843-b6c0-4fd2-8507-6fc087b77fb2)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 40.386 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "CV GND" (shape input) (at 210.7692 75.4888 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid e45aed78-2d35-475b-8003-cc52c030c1c3)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 220.0119 75.4888 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "CV GND" (shape input) (at 53.086 91.44 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid e7fcac70-aae1-4d15-80d4-fa87c4eba75b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 62.3287 91.44 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "CV GND" (shape input) (at 210.6676 104.6988 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ea7aea13-5f2f-4910-946e-cdceab8e3098)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 219.9103 104.6988 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "i2c SDA" (shape bidirectional) (at 38.2016 32.4612 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid eb344f49-76a2-4f9c-99cf-10876c725e2f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 38.2016 32.4612 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "CV GND" (shape input) (at 210.0072 34.8488 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ec70fd3b-fea3-40f6-a449-6fb6b0f59717)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 219.2499 34.8488 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "DIG GND" (shape input) (at 112.7252 106.68 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ef8204e4-9cfb-4d1a-a4a3-a0ccd49547e4)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 102.0421 106.68 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "CV GND" (shape input) (at 210.7692 80.5688 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid f339d468-3ca5-4f43-8d37-b060bb54d723)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 220.0119 80.5688 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "DIG GND" (shape input) (at 79.8576 61.6204 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid fe0d0a6f-5f74-4021-ad4e-cc926c8a8454)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 69.1745 61.6204 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 79.8576 61.6204 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 141082d5-e197-4191-812f-4120a75a6b2e)
-    (property "Reference" "#PWR01" (at 79.8576 55.2704 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 79.8576 58.1185 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 79.8576 61.6204 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 79.8576 61.6204 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 859535aa-bbd6-47e3-8fdf-1e61ce76bb48))
-    (instances
-      (project "expander_cv_input"
-        (path "/e5e07d63-142e-479c-89c4-9bf280763543"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-      (project "microlidian"
-        (path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 124.4092 93.98 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 23c0db6e-c222-4e49-a3dc-6b4b925d4c2e)
-    (property "Reference" "C1" (at 121.6152 94.488 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "100n" (at 122.0851 92.7091 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" (at 124.4092 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 124.4092 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 37273c17-45ed-46c6-8c25-510f8280bece))
-    (pin "2" (uuid 26287b87-34d9-480e-bb73-26b9b9e95c55))
-    (instances
-      (project "expander_cv_input"
-        (path "/e5e07d63-142e-479c-89c4-9bf280763543"
-          (reference "C1") (unit 1)
-        )
-      )
-      (project "microlidian"
-        (path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
-          (reference "C8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x05") (at 117.8052 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 46989670-5232-45a8-9ada-147361b175cc)
-    (property "Reference" "ADS1015_2_DIG1" (at 107.442 113.284 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "ADS1015 digital side" (at 105.664 110.6424 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" (at 117.8052 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 117.8052 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e3c4c20f-f06e-4d04-af9b-33c335598b22))
-    (pin "2" (uuid 12270ebb-f9e3-4926-b817-72561d6b2b92))
-    (pin "3" (uuid 173b75aa-c86a-47c6-9f25-44eb40e4a7e3))
-    (pin "4" (uuid 19b0c7c9-a0e6-4b31-961b-8abff84c0928))
-    (pin "5" (uuid c261ffb0-20e3-4e98-9586-b4df98227098))
-    (instances
-      (project "expander_cv_input"
-        (path "/e5e07d63-142e-479c-89c4-9bf280763543"
-          (reference "ADS1015_2_DIG1") (unit 1)
-        )
-      )
-      (project "microlidian"
-        (path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
-          (reference "J4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x05") (at 131.2672 45.5676 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4b93ccc1-a5f7-4d32-80aa-862cf19e5888)
-    (property "Reference" "ASD1015_1_ANA1" (at 143.6624 57.4548 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "ADS1015 analog side" (at 147.574 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" (at 131.2672 45.5676 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 131.2672 45.5676 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9055e3d1-ed53-4040-98e3-b59c116d80c0))
-    (pin "2" (uuid 53eeeeb9-3c28-456a-81d2-c4c836731f75))
-    (pin "3" (uuid fbf64804-d915-4544-8d1e-053743a21b25))
-    (pin "4" (uuid c95a6095-84bd-4ebc-b9f3-6b00fb376638))
-    (pin "5" (uuid 9bccb84f-4740-4726-a6c0-a4a5d5987428))
-    (instances
-      (project "expander_cv_input"
-        (path "/e5e07d63-142e-479c-89c4-9bf280763543"
-          (reference "ASD1015_1_ANA1") (unit 1)
-        )
-      )
-      (project "microlidian"
-        (path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
-          (reference "J5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_02x04_Odd_Even") (at 45.466 93.98 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5d92d4a9-32ff-4aa3-af77-74638d414fdf)
-    (property "Reference" "CV_INPUT_I2C_EXPANDER_MAIN1" (at 46.863 85.344 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "8 pin header" (at 46.482 88.011 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" (at 45.466 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 45.466 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 495f7251-1394-4d5f-9ed6-d91d23a86f7a))
-    (pin "2" (uuid ec527487-ef9a-41c2-8e2a-3068f4c44571))
-    (pin "3" (uuid b51a0364-955d-4627-a47c-240ae72fb011))
-    (pin "4" (uuid b8cbfe1e-c9fa-4e5e-b3a7-be8a39198a3b))
-    (pin "5" (uuid 472a6f9e-7d7c-4db1-8a99-d437b68d490a))
-    (pin "6" (uuid 740e42fc-bbe9-42ce-ae1b-ebd034baca42))
-    (pin "7" (uuid 1429b7af-8386-4351-a045-ce4dd19b8dcc))
-    (pin "8" (uuid ca115ff1-b2a1-4d44-96a1-fffd4e9d5102))
-    (instances
-      (project "usb_midi_clocker circuits"
-        (path "/34c98e31-06d2-46ec-970e-3acc65b5aead/8605ec3d-c61d-42ba-ab22-ca4ce5245174"
-          (reference "CV_INPUT_I2C_EXPANDER_MAIN1") (unit 1)
-        )
-      )
-      (project "expander_cv_input"
-        (path "/e5e07d63-142e-479c-89c4-9bf280763543"
-          (reference "CV_INPUT_I2C_THRU1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Audio:AudioJack2_SwitchT") (at 205.5876 102.1588 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5e56440a-c4b1-4b61-b5bd-33a81eff6367)
-    (property "Reference" "JACK4" (at 204.9526 95.3389 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "AudioJack2_SwitchT" (at 204.9526 97.2599 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 205.5876 102.1588 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 205.5876 102.1588 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "S" (uuid 941f111f-4e2c-4ebe-afd6-006f06462adc))
-    (pin "T" (uuid 10ac3d9a-1f00-4c25-a700-83d399b13331))
-    (pin "TN" (uuid 5b0b362d-09e8-495c-a408-795bc93cae34))
-    (instances
-      (project "expander_cv_input"
-        (path "/e5e07d63-142e-479c-89c4-9bf280763543"
-          (reference "JACK4") (unit 1)
-        )
-      )
-      (project "microlidian"
-        (path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
-          (reference "CV_Input_A1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 124.4092 91.44 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6b192292-df5e-4a7d-a66c-7da709cd002b)
-    (property "Reference" "#PWR02" (at 124.4092 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 124.4092 87.9381 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 124.4092 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 124.4092 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ddd4ff56-1ccb-4321-9244-58d9af6d34e8))
-    (instances
-      (project "expander_cv_input"
-        (path "/e5e07d63-142e-479c-89c4-9bf280763543"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-      (project "microlidian"
-        (path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x05") (at 131.0132 101.6 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a3dd0e05-2006-4da6-838f-b301c4aeefc0)
-    (property "Reference" "ASD1015_2_ANA1" (at 143.4084 113.4872 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "ADS1015 analog side" (at 147.32 110.6424 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" (at 131.0132 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 131.0132 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 28728935-0d00-4d68-9a1d-62440debcb35))
-    (pin "2" (uuid 179b07f4-f8c0-4597-a7f9-ee1511bbfc83))
-    (pin "3" (uuid df600c0f-c6b0-4480-924e-1e3a43352a8d))
-    (pin "4" (uuid ec436fad-1c1c-4ec8-b200-b8ab40819646))
-    (pin "5" (uuid 99d5b243-a1b4-4baf-9d07-3dc47dddbba5))
-    (instances
-      (project "expander_cv_input"
-        (path "/e5e07d63-142e-479c-89c4-9bf280763543"
-          (reference "ASD1015_2_ANA1") (unit 1)
-        )
-      )
-      (project "microlidian"
-        (path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
-          (reference "J5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 124.6632 35.4076 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ab2558ea-a478-49b8-9f7c-afa1841f4335)
-    (property "Reference" "#PWR03" (at 124.6632 29.0576 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 124.6632 31.9057 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 124.6632 35.4076 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 124.6632 35.4076 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2dbcd81d-04ae-4f19-81b7-2ba01bf9e1d6))
-    (instances
-      (project "expander_cv_input"
-        (path "/e5e07d63-142e-479c-89c4-9bf280763543"
-          (reference "#PWR03") (unit 1)
-        )
-      )
-      (project "microlidian"
-        (path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Audio:AudioJack2_SwitchT") (at 206.3496 147.8788 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b224b63d-a63b-4134-b1ed-fb30a3a5151a)
-    (property "Reference" "JACK6" (at 205.7146 141.0589 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "AudioJack2_SwitchT" (at 205.7146 142.9799 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 206.3496 147.8788 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 206.3496 147.8788 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "S" (uuid 3c971fdc-7a1f-4c9e-8342-ffa16052a329))
-    (pin "T" (uuid d2c0f9f2-3cde-493b-b49c-439c85b22cbe))
-    (pin "TN" (uuid f414e623-6ebc-48ba-bb19-b381b393c889))
-    (instances
-      (project "expander_cv_input"
-        (path "/e5e07d63-142e-479c-89c4-9bf280763543"
-          (reference "JACK6") (unit 1)
-        )
-      )
-      (project "microlidian"
-        (path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
-          (reference "CV_Input_B1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 124.6632 37.9476 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid cea8f065-3c44-4c0d-86b0-16f1396214b8)
-    (property "Reference" "C2" (at 121.8692 38.4556 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "100n" (at 122.3391 36.6767 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" (at 124.6632 37.9476 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 124.6632 37.9476 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5f61db67-6606-45a3-bace-caf876f8ef3e))
-    (pin "2" (uuid b66308ec-924a-4b7d-9dba-0532a6e34d2e))
-    (instances
-      (project "expander_cv_input"
-        (path "/e5e07d63-142e-479c-89c4-9bf280763543"
-          (reference "C2") (unit 1)
-        )
-      )
-      (project "microlidian"
-        (path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
-          (reference "C8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_02x04_Odd_Even") (at 43.2816 32.4612 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d3ea512a-ac8b-43db-8e96-d822a9656e8c)
-    (property "Reference" "CV_INPUT_I2C_EXPANDER_MAIN1" (at 44.6786 23.8252 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "8 pin header" (at 44.2976 26.4922 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" (at 43.2816 32.4612 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 43.2816 32.4612 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 072872a6-3e39-4f83-89ba-cb1974ce235b))
-    (pin "2" (uuid 73f75a97-16a9-45e8-8631-b1d67d373f8c))
-    (pin "3" (uuid 552eafbc-6ef9-4655-a674-d9be91c75dab))
-    (pin "4" (uuid 487d404d-d41b-4415-8a15-eaadf4a6e237))
-    (pin "5" (uuid e04fa452-9fc8-48a7-badf-bf1fa0ac9edd))
-    (pin "6" (uuid c6671167-4fbb-48a8-a1f9-3fd5871b7465))
-    (pin "7" (uuid 4e57faca-5805-408b-836b-fa06765d0987))
-    (pin "8" (uuid 6ccefa2e-acc6-4e4e-a65e-132eb2b9c9e5))
-    (instances
-      (project "usb_midi_clocker circuits"
-        (path "/34c98e31-06d2-46ec-970e-3acc65b5aead/8605ec3d-c61d-42ba-ab22-ca4ce5245174"
-          (reference "CV_INPUT_I2C_EXPANDER_MAIN1") (unit 1)
-        )
-      )
-      (project "expander_cv_input"
-        (path "/e5e07d63-142e-479c-89c4-9bf280763543"
-          (reference "CV_INPUT_I2C_EXPANDER1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Audio:AudioJack2_SwitchT") (at 205.6892 78.0288 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d7da432d-1ddd-465d-b838-76724abef6a3)
-    (property "Reference" "JACK3" (at 205.0542 71.2089 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "AudioJack2_SwitchT" (at 205.0542 73.1299 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 205.6892 78.0288 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 205.6892 78.0288 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "S" (uuid cb8604a2-81a8-4c47-9658-e6061b5b421e))
-    (pin "T" (uuid 6a70914e-b36f-4ee4-8088-0392693045c8))
-    (pin "TN" (uuid f83baeda-d60f-4fe7-83af-0079daa2f2f0))
-    (instances
-      (project "expander_cv_input"
-        (path "/e5e07d63-142e-479c-89c4-9bf280763543"
-          (reference "JACK3") (unit 1)
-        )
-      )
-      (project "microlidian"
-        (path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
-          (reference "CV_Input_B1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Audio:AudioJack2_SwitchT") (at 205.8416 126.7968 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e605afac-b104-4e3e-bcf6-2c4d37791823)
-    (property "Reference" "JACK5" (at 205.2066 119.9769 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "AudioJack2_SwitchT" (at 205.2066 121.8979 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 205.8416 126.7968 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 205.8416 126.7968 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "S" (uuid ee8b6385-c880-4415-8db2-8e0c06281d0a))
-    (pin "T" (uuid 9cb9f653-5a04-489b-a5b3-f65c8fbeed38))
-    (pin "TN" (uuid 55cffe59-03d0-4d34-bf03-f99ed86bd08b))
-    (instances
-      (project "expander_cv_input"
-        (path "/e5e07d63-142e-479c-89c4-9bf280763543"
-          (reference "JACK5") (unit 1)
-        )
-      )
-      (project "microlidian"
-        (path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
-          (reference "CV_Input_C1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x05") (at 118.0592 45.5676 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e7e202d3-980a-4f40-af65-1896a5027dd7)
-    (property "Reference" "ADS1015_1_DIG1" (at 107.696 57.2516 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "ADS1015 digital side" (at 105.918 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" (at 118.0592 45.5676 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 118.0592 45.5676 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0eaedc32-1775-4f0e-90dc-71a0e3a88420))
-    (pin "2" (uuid a81c6e1b-517a-4f31-a85d-ade683aab6cb))
-    (pin "3" (uuid b4fd7801-4e16-4881-bb1a-50ca5d225d6d))
-    (pin "4" (uuid fff3d102-48ff-4ccb-982c-79e50779c5fd))
-    (pin "5" (uuid 0801ed89-8542-46a5-af49-8819c1a18238))
-    (instances
-      (project "expander_cv_input"
-        (path "/e5e07d63-142e-479c-89c4-9bf280763543"
-          (reference "ADS1015_1_DIG1") (unit 1)
-        )
-      )
-      (project "microlidian"
-        (path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
-          (reference "J4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Audio:AudioJack2_SwitchT") (at 204.9272 32.3088 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ec4d1e90-9113-4c4a-b9af-68efac614697)
-    (property "Reference" "JACK1" (at 204.2922 25.4889 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "AudioJack2_SwitchT" (at 204.2922 27.4099 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 204.9272 32.3088 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 204.9272 32.3088 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "S" (uuid 265a8116-b356-4f8b-b912-eb14be5b2f08))
-    (pin "T" (uuid e1dc4337-fd3a-4148-9185-757c3bef4d81))
-    (pin "TN" (uuid c615a14b-02d0-4069-bc75-7f22ab128a9b))
-    (instances
-      (project "expander_cv_input"
-        (path "/e5e07d63-142e-479c-89c4-9bf280763543"
-          (reference "JACK1") (unit 1)
-        )
-      )
-      (project "microlidian"
-        (path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
-          (reference "CV_Input_A1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Audio:AudioJack2_SwitchT") (at 205.1812 56.9468 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f48987ee-e0ef-485e-a712-366684679bd2)
-    (property "Reference" "JACK2" (at 204.5462 50.1269 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "AudioJack2_SwitchT" (at 204.5462 52.0479 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 205.1812 56.9468 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 205.1812 56.9468 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "S" (uuid 6a6057a5-034b-4ad1-a60c-afc0231d804c))
-    (pin "T" (uuid e303c7f2-1d82-498d-8bf3-994e6b407bdb))
-    (pin "TN" (uuid 836a0107-70f5-45a9-b220-77b9f8670bd8))
-    (instances
-      (project "expander_cv_input"
-        (path "/e5e07d63-142e-479c-89c4-9bf280763543"
-          (reference "JACK2") (unit 1)
-        )
-      )
-      (project "microlidian"
-        (path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
-          (reference "CV_Input_C1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e5e07d63-142e-479c-89c4-9bf280763543")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Audio:AudioJack2_SwitchT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack2_SwitchT"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle mono headphones phone TS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack2_SwitchT_0_1"
+				(rectangle
+					(start -2.54 0)
+					(end -3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.254) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack2_SwitchT_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x05"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x05_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x04_Odd_Even"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x04_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 124.4092 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99626d95-f85d-411e-b914-fe6faa338fb7")
+	)
+	(junction
+		(at 124.6632 40.4876)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcfe6569-ea54-4024-b031-34eea8fb6d08")
+	)
+	(wire
+		(pts
+			(xy 112.7252 96.52) (xy 124.4092 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355fb94c-6197-4812-b43c-142b14150bec")
+	)
+	(wire
+		(pts
+			(xy 124.6632 40.4876) (xy 136.3472 40.4876)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cccffb7-a77a-404b-80d9-7fef2569df74")
+	)
+	(wire
+		(pts
+			(xy 112.9792 40.4876) (xy 124.6632 40.4876)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88d288c-b5db-4cda-ac6e-30bd73c64ce4")
+	)
+	(wire
+		(pts
+			(xy 124.4092 96.52) (xy 136.0932 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed455b33-3d54-4ca4-b220-f1bbfccb34e7")
+	)
+	(global_label "ADS 1 Interrupt"
+		(shape input)
+		(at 112.9792 48.1076 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0126d783-58b9-4fbc-b6ed-6d05d328e03d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.1964 48.1076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i2c SDA"
+		(shape bidirectional)
+		(at 40.386 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1442742b-2b4f-4173-a018-6a31b35d4000")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.386 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 53.086 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1767eeae-95fb-49f6-99f0-084128aaa5eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.086 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIG GND"
+		(shape input)
+		(at 53.086 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17e93201-a648-4b29-9b45-5388ba5b704a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.7691 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV GND"
+		(shape input)
+		(at 136.3472 50.6476 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bd3e4be-1443-49da-a557-2e9265cccb51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.5899 50.6476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i2c SCL"
+		(shape input)
+		(at 40.386 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ea37243-e596-4138-8a1a-b21a92a55e58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.386 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV GND"
+		(shape input)
+		(at 50.9016 29.9212 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "201e8d5f-e86d-46ac-b730-b84752d234de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.1443 29.9212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A5 input Frontboard"
+		(shape input)
+		(at 211.4296 147.8788 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2461177e-0e40-4548-8d87-afa63d6fc342")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.2157 147.8788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIG GND"
+		(shape input)
+		(at 50.9016 32.4612 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "251ee0b5-698d-415c-b4ee-a764f044ba41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.5847 32.4612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV GND"
+		(shape input)
+		(at 211.4296 150.4188 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26cd9ff5-8565-4caa-99dd-35f8849a9708")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.6723 150.4188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV GND"
+		(shape input)
+		(at 210.9216 124.2568 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27362454-b047-4c11-ba44-acf29a641650")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.1643 124.2568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i2c SCL"
+		(shape input)
+		(at 112.7252 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c262e78-c3f9-42b8-86d5-8b500eb854e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.3011 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADS 2 Interrupt"
+		(shape input)
+		(at 112.7252 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3112a7ad-5c72-4f24-982e-0ac77b62bdeb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.9424 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIG GND"
+		(shape input)
+		(at 112.9792 50.6476 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32696c46-00a2-40a9-b7fd-5ceccb6d855c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.2961 50.6476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 53.086 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33be033a-a9d6-44a0-8d8b-b85c7f67dee2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.086 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A4 input Frontboard"
+		(shape input)
+		(at 136.0932 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40a8a8ca-f3c1-4fe7-8ead-68a0919eb501")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.8793 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A3 input Frontboard"
+		(shape input)
+		(at 136.0932 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50d1a375-f149-415a-a310-6672c7f5e303")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.8793 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A0 input Frontboard"
+		(shape input)
+		(at 136.3472 43.0276 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54dd5580-9463-422c-be12-c8fd7e370fc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.4791 43.0276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i2c SDA"
+		(shape bidirectional)
+		(at 38.2016 37.5412 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b621f0a-b95c-4d37-94f9-407b66dec4f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.2016 37.5412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i2c SDA"
+		(shape bidirectional)
+		(at 40.386 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c27ca08-b19c-4808-804f-8429abe2703c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.386 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A1 input Frontboard"
+		(shape input)
+		(at 210.2612 56.9468 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ecf086c-0601-48e4-86aa-1d5ee35b895a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.3931 56.9468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 50.9016 35.0012 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5fcf2dd8-ce8e-416d-8736-138ae1c08a30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.9016 35.0012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV GND"
+		(shape input)
+		(at 210.2612 54.4068 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "646646af-d260-4ff3-b366-e6d55920856f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.5039 54.4068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 136.0932 96.52 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "722a2b67-5fc6-45cc-ac40-e4953f8a2ba2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.0932 89.7437 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV GND"
+		(shape input)
+		(at 210.9216 129.3368 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75a44f14-4c36-44e4-ba86-8cb52549bba6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.1643 129.3368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A1 input Frontboard"
+		(shape input)
+		(at 136.3472 45.5676 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f7cf4ef-fa62-407e-a7f7-2a3eb20c163a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.4791 45.5676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A3 input Frontboard"
+		(shape input)
+		(at 210.6676 102.1588 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80c1f3a7-d6b2-4006-873f-cd5b42a86b96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.4537 102.1588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV GND"
+		(shape input)
+		(at 210.2612 59.4868 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83a629cb-cf31-4f8d-8545-8b2883db9479")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.5039 59.4868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i2c SCL"
+		(shape input)
+		(at 38.2016 35.0012 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "855a8569-6999-4206-a77c-b1be213c70ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.2016 35.0012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i2c SCL"
+		(shape input)
+		(at 38.2016 29.9212 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e156b10-9563-4699-a9bc-378b22af0b2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.2016 29.9212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV GND"
+		(shape input)
+		(at 210.6676 99.6188 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94762954-6f05-4e61-a79e-b071da6f1e4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.9103 99.6188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A4 input Frontboard"
+		(shape input)
+		(at 210.9216 126.7968 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98959417-462d-4381-8a64-7849c3ec450f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.7077 126.7968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A2 input Frontboard"
+		(shape input)
+		(at 210.7692 78.0288 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bb9e0c4-673f-4672-be81-fda207653fd4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.9011 78.0288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A5 input Frontboard"
+		(shape input)
+		(at 136.0932 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9cb97584-216b-4ac6-aff1-71a258f9ec95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.8793 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV GND"
+		(shape input)
+		(at 79.8576 61.6204 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a196fe3d-9232-44d4-b09e-39d450bd8534")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.1003 61.6204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 112.9792 40.4876 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4d66d9c-19c9-4b0b-8f30-7ec1f0c60cab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.9792 33.7113 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 136.3472 40.4876 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a74ca2a6-1c86-4694-b71d-1cbac1e52722")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.3472 33.7113 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 112.7252 96.52 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b05cbf54-1918-4279-a9be-5e6098e4716f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.7252 89.7437 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV GND"
+		(shape input)
+		(at 211.4296 145.3388 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6ae013a-2f7e-46bc-90a8-c00a7b7bed56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.6723 145.3388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A2 input Frontboard"
+		(shape input)
+		(at 136.3472 48.1076 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7468736-f819-4efe-9b1e-6972981f45e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.4791 48.1076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 50.9016 37.5412 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b909788e-3bfa-4f7b-9a37-ac967eb7e7b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.9016 37.5412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i2c SCL"
+		(shape input)
+		(at 112.9792 45.5676 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba0f06ed-5d32-499d-95fe-4a00a178b697")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.5551 45.5676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A0 input Frontboard"
+		(shape input)
+		(at 210.0072 32.3088 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd9cbaf8-2e5d-4abf-9582-5e08a4cea3e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.1391 32.3088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i2c SDA"
+		(shape input)
+		(at 112.9792 43.0276 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c254b607-7288-4434-a044-0c7cfae915ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.4946 43.0276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV GND"
+		(shape input)
+		(at 136.0932 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5e78765-8850-4520-ba91-f0abeb7f50dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.3359 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i2c SDA"
+		(shape input)
+		(at 112.7252 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8e32e44-c4c2-4478-b237-d58607e6c5ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.2406 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV GND"
+		(shape input)
+		(at 210.0072 29.7688 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc483f98-2319-42fd-9fab-955792255901")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.2499 29.7688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i2c SCL"
+		(shape input)
+		(at 40.386 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e110f843-b6c0-4fd2-8507-6fc087b77fb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.386 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV GND"
+		(shape input)
+		(at 210.7692 75.4888 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e45aed78-2d35-475b-8003-cc52c030c1c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.0119 75.4888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV GND"
+		(shape input)
+		(at 53.086 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7fcac70-aae1-4d15-80d4-fa87c4eba75b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.3287 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV GND"
+		(shape input)
+		(at 210.6676 104.6988 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea7aea13-5f2f-4910-946e-cdceab8e3098")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.9103 104.6988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i2c SDA"
+		(shape bidirectional)
+		(at 38.2016 32.4612 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb344f49-76a2-4f9c-99cf-10876c725e2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.2016 32.4612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV GND"
+		(shape input)
+		(at 210.0072 34.8488 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec70fd3b-fea3-40f6-a449-6fb6b0f59717")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.2499 34.8488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIG GND"
+		(shape input)
+		(at 112.7252 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef8204e4-9cfb-4d1a-a4a3-a0ccd49547e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.0421 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV GND"
+		(shape input)
+		(at 210.7692 80.5688 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f339d468-3ca5-4f43-8d37-b060bb54d723")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.0119 80.5688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIG GND"
+		(shape input)
+		(at 79.8576 61.6204 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe0d0a6f-5f74-4021-ad4e-cc926c8a8454")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.1745 61.6204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 79.8576 61.6204 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "141082d5-e197-4191-812f-4120a75a6b2e")
+		(property "Reference" "#PWR01"
+			(at 79.8576 55.2704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 79.8576 58.1185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 79.8576 61.6204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 79.8576 61.6204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 79.8576 61.6204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "859535aa-bbd6-47e3-8fdf-1e61ce76bb48")
+		)
+		(instances
+			(project "expander_cv_input"
+				(path "/e5e07d63-142e-479c-89c4-9bf280763543"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "microlidian"
+				(path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 124.4092 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23c0db6e-c222-4e49-a3dc-6b4b925d4c2e")
+		(property "Reference" "C1"
+			(at 121.6152 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 122.0851 92.7091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 124.4092 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.4092 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.4092 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37273c17-45ed-46c6-8c25-510f8280bece")
+		)
+		(pin "2"
+			(uuid "26287b87-34d9-480e-bb73-26b9b9e95c55")
+		)
+		(instances
+			(project "expander_cv_input"
+				(path "/e5e07d63-142e-479c-89c4-9bf280763543"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "microlidian"
+				(path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 117.8052 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46989670-5232-45a8-9ada-147361b175cc")
+		(property "Reference" "ADS1015_2_DIG1"
+			(at 107.442 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS1015 digital side"
+			(at 105.664 110.6424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+			(at 117.8052 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 117.8052 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 117.8052 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3c4c20f-f06e-4d04-af9b-33c335598b22")
+		)
+		(pin "2"
+			(uuid "12270ebb-f9e3-4926-b817-72561d6b2b92")
+		)
+		(pin "3"
+			(uuid "173b75aa-c86a-47c6-9f25-44eb40e4a7e3")
+		)
+		(pin "4"
+			(uuid "19b0c7c9-a0e6-4b31-961b-8abff84c0928")
+		)
+		(pin "5"
+			(uuid "c261ffb0-20e3-4e98-9586-b4df98227098")
+		)
+		(instances
+			(project "expander_cv_input"
+				(path "/e5e07d63-142e-479c-89c4-9bf280763543"
+					(reference "ADS1015_2_DIG1")
+					(unit 1)
+				)
+			)
+			(project "microlidian"
+				(path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 131.2672 45.5676 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b93ccc1-a5f7-4d32-80aa-862cf19e5888")
+		(property "Reference" "ASD1015_1_ANA1"
+			(at 143.6624 57.4548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS1015 analog side"
+			(at 147.574 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+			(at 131.2672 45.5676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 131.2672 45.5676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 131.2672 45.5676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9055e3d1-ed53-4040-98e3-b59c116d80c0")
+		)
+		(pin "2"
+			(uuid "53eeeeb9-3c28-456a-81d2-c4c836731f75")
+		)
+		(pin "3"
+			(uuid "fbf64804-d915-4544-8d1e-053743a21b25")
+		)
+		(pin "4"
+			(uuid "c95a6095-84bd-4ebc-b9f3-6b00fb376638")
+		)
+		(pin "5"
+			(uuid "9bccb84f-4740-4726-a6c0-a4a5d5987428")
+		)
+		(instances
+			(project "expander_cv_input"
+				(path "/e5e07d63-142e-479c-89c4-9bf280763543"
+					(reference "ASD1015_1_ANA1")
+					(unit 1)
+				)
+			)
+			(project "microlidian"
+				(path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 45.466 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d92d4a9-32ff-4aa3-af77-74638d414fdf")
+		(property "Reference" "CV_INPUT_I2C_EXPANDER_MAIN1"
+			(at 46.863 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8 pin header"
+			(at 46.482 88.011 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+			(at 45.466 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.466 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.466 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "495f7251-1394-4d5f-9ed6-d91d23a86f7a")
+		)
+		(pin "2"
+			(uuid "ec527487-ef9a-41c2-8e2a-3068f4c44571")
+		)
+		(pin "3"
+			(uuid "b51a0364-955d-4627-a47c-240ae72fb011")
+		)
+		(pin "4"
+			(uuid "b8cbfe1e-c9fa-4e5e-b3a7-be8a39198a3b")
+		)
+		(pin "5"
+			(uuid "472a6f9e-7d7c-4db1-8a99-d437b68d490a")
+		)
+		(pin "6"
+			(uuid "740e42fc-bbe9-42ce-ae1b-ebd034baca42")
+		)
+		(pin "7"
+			(uuid "1429b7af-8386-4351-a045-ce4dd19b8dcc")
+		)
+		(pin "8"
+			(uuid "ca115ff1-b2a1-4d44-96a1-fffd4e9d5102")
+		)
+		(instances
+			(project "usb_midi_clocker circuits"
+				(path "/34c98e31-06d2-46ec-970e-3acc65b5aead/8605ec3d-c61d-42ba-ab22-ca4ce5245174"
+					(reference "CV_INPUT_I2C_EXPANDER_MAIN1")
+					(unit 1)
+				)
+			)
+			(project "expander_cv_input"
+				(path "/e5e07d63-142e-479c-89c4-9bf280763543"
+					(reference "CV_INPUT_I2C_THRU1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 205.5876 102.1588 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e56440a-c4b1-4b61-b5bd-33a81eff6367")
+		(property "Reference" "JACK4"
+			(at 204.9526 95.3389 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack2_SwitchT"
+			(at 204.9526 97.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 205.5876 102.1588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.5876 102.1588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.5876 102.1588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "941f111f-4e2c-4ebe-afd6-006f06462adc")
+		)
+		(pin "T"
+			(uuid "10ac3d9a-1f00-4c25-a700-83d399b13331")
+		)
+		(pin "TN"
+			(uuid "5b0b362d-09e8-495c-a408-795bc93cae34")
+		)
+		(instances
+			(project "expander_cv_input"
+				(path "/e5e07d63-142e-479c-89c4-9bf280763543"
+					(reference "JACK4")
+					(unit 1)
+				)
+			)
+			(project "microlidian"
+				(path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
+					(reference "CV_Input_A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.4092 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b192292-df5e-4a7d-a66c-7da709cd002b")
+		(property "Reference" "#PWR02"
+			(at 124.4092 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.4092 87.9381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.4092 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.4092 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.4092 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddd4ff56-1ccb-4321-9244-58d9af6d34e8")
+		)
+		(instances
+			(project "expander_cv_input"
+				(path "/e5e07d63-142e-479c-89c4-9bf280763543"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "microlidian"
+				(path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 131.0132 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3dd0e05-2006-4da6-838f-b301c4aeefc0")
+		(property "Reference" "ASD1015_2_ANA1"
+			(at 143.4084 113.4872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS1015 analog side"
+			(at 147.32 110.6424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+			(at 131.0132 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 131.0132 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 131.0132 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28728935-0d00-4d68-9a1d-62440debcb35")
+		)
+		(pin "2"
+			(uuid "179b07f4-f8c0-4597-a7f9-ee1511bbfc83")
+		)
+		(pin "3"
+			(uuid "df600c0f-c6b0-4480-924e-1e3a43352a8d")
+		)
+		(pin "4"
+			(uuid "ec436fad-1c1c-4ec8-b200-b8ab40819646")
+		)
+		(pin "5"
+			(uuid "99d5b243-a1b4-4baf-9d07-3dc47dddbba5")
+		)
+		(instances
+			(project "expander_cv_input"
+				(path "/e5e07d63-142e-479c-89c4-9bf280763543"
+					(reference "ASD1015_2_ANA1")
+					(unit 1)
+				)
+			)
+			(project "microlidian"
+				(path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.6632 35.4076 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab2558ea-a478-49b8-9f7c-afa1841f4335")
+		(property "Reference" "#PWR03"
+			(at 124.6632 29.0576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.6632 31.9057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.6632 35.4076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.6632 35.4076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.6632 35.4076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dbcd81d-04ae-4f19-81b7-2ba01bf9e1d6")
+		)
+		(instances
+			(project "expander_cv_input"
+				(path "/e5e07d63-142e-479c-89c4-9bf280763543"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "microlidian"
+				(path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 206.3496 147.8788 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b224b63d-a63b-4134-b1ed-fb30a3a5151a")
+		(property "Reference" "JACK6"
+			(at 205.7146 141.0589 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack2_SwitchT"
+			(at 205.7146 142.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 206.3496 147.8788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 206.3496 147.8788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 206.3496 147.8788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "3c971fdc-7a1f-4c9e-8342-ffa16052a329")
+		)
+		(pin "T"
+			(uuid "d2c0f9f2-3cde-493b-b49c-439c85b22cbe")
+		)
+		(pin "TN"
+			(uuid "f414e623-6ebc-48ba-bb19-b381b393c889")
+		)
+		(instances
+			(project "expander_cv_input"
+				(path "/e5e07d63-142e-479c-89c4-9bf280763543"
+					(reference "JACK6")
+					(unit 1)
+				)
+			)
+			(project "microlidian"
+				(path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
+					(reference "CV_Input_B1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 124.6632 37.9476 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cea8f065-3c44-4c0d-86b0-16f1396214b8")
+		(property "Reference" "C2"
+			(at 121.8692 38.4556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 122.3391 36.6767 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 124.6632 37.9476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.6632 37.9476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.6632 37.9476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f61db67-6606-45a3-bace-caf876f8ef3e")
+		)
+		(pin "2"
+			(uuid "b66308ec-924a-4b7d-9dba-0532a6e34d2e")
+		)
+		(instances
+			(project "expander_cv_input"
+				(path "/e5e07d63-142e-479c-89c4-9bf280763543"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "microlidian"
+				(path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 43.2816 32.4612 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3ea512a-ac8b-43db-8e96-d822a9656e8c")
+		(property "Reference" "CV_INPUT_I2C_EXPANDER_MAIN1"
+			(at 44.6786 23.8252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8 pin header"
+			(at 44.2976 26.4922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+			(at 43.2816 32.4612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.2816 32.4612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.2816 32.4612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "072872a6-3e39-4f83-89ba-cb1974ce235b")
+		)
+		(pin "2"
+			(uuid "73f75a97-16a9-45e8-8631-b1d67d373f8c")
+		)
+		(pin "3"
+			(uuid "552eafbc-6ef9-4655-a674-d9be91c75dab")
+		)
+		(pin "4"
+			(uuid "487d404d-d41b-4415-8a15-eaadf4a6e237")
+		)
+		(pin "5"
+			(uuid "e04fa452-9fc8-48a7-badf-bf1fa0ac9edd")
+		)
+		(pin "6"
+			(uuid "c6671167-4fbb-48a8-a1f9-3fd5871b7465")
+		)
+		(pin "7"
+			(uuid "4e57faca-5805-408b-836b-fa06765d0987")
+		)
+		(pin "8"
+			(uuid "6ccefa2e-acc6-4e4e-a65e-132eb2b9c9e5")
+		)
+		(instances
+			(project "usb_midi_clocker circuits"
+				(path "/34c98e31-06d2-46ec-970e-3acc65b5aead/8605ec3d-c61d-42ba-ab22-ca4ce5245174"
+					(reference "CV_INPUT_I2C_EXPANDER_MAIN1")
+					(unit 1)
+				)
+			)
+			(project "expander_cv_input"
+				(path "/e5e07d63-142e-479c-89c4-9bf280763543"
+					(reference "CV_INPUT_I2C_EXPANDER1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 205.6892 78.0288 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7da432d-1ddd-465d-b838-76724abef6a3")
+		(property "Reference" "JACK3"
+			(at 205.0542 71.2089 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack2_SwitchT"
+			(at 205.0542 73.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 205.6892 78.0288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.6892 78.0288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.6892 78.0288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "cb8604a2-81a8-4c47-9658-e6061b5b421e")
+		)
+		(pin "T"
+			(uuid "6a70914e-b36f-4ee4-8088-0392693045c8")
+		)
+		(pin "TN"
+			(uuid "f83baeda-d60f-4fe7-83af-0079daa2f2f0")
+		)
+		(instances
+			(project "expander_cv_input"
+				(path "/e5e07d63-142e-479c-89c4-9bf280763543"
+					(reference "JACK3")
+					(unit 1)
+				)
+			)
+			(project "microlidian"
+				(path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
+					(reference "CV_Input_B1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 205.8416 126.7968 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e605afac-b104-4e3e-bcf6-2c4d37791823")
+		(property "Reference" "JACK5"
+			(at 205.2066 119.9769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack2_SwitchT"
+			(at 205.2066 121.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 205.8416 126.7968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.8416 126.7968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.8416 126.7968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "ee8b6385-c880-4415-8db2-8e0c06281d0a")
+		)
+		(pin "T"
+			(uuid "9cb9f653-5a04-489b-a5b3-f65c8fbeed38")
+		)
+		(pin "TN"
+			(uuid "55cffe59-03d0-4d34-bf03-f99ed86bd08b")
+		)
+		(instances
+			(project "expander_cv_input"
+				(path "/e5e07d63-142e-479c-89c4-9bf280763543"
+					(reference "JACK5")
+					(unit 1)
+				)
+			)
+			(project "microlidian"
+				(path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
+					(reference "CV_Input_C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 118.0592 45.5676 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7e202d3-980a-4f40-af65-1896a5027dd7")
+		(property "Reference" "ADS1015_1_DIG1"
+			(at 107.696 57.2516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS1015 digital side"
+			(at 105.918 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+			(at 118.0592 45.5676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.0592 45.5676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.0592 45.5676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eaedc32-1775-4f0e-90dc-71a0e3a88420")
+		)
+		(pin "2"
+			(uuid "a81c6e1b-517a-4f31-a85d-ade683aab6cb")
+		)
+		(pin "3"
+			(uuid "b4fd7801-4e16-4881-bb1a-50ca5d225d6d")
+		)
+		(pin "4"
+			(uuid "fff3d102-48ff-4ccb-982c-79e50779c5fd")
+		)
+		(pin "5"
+			(uuid "0801ed89-8542-46a5-af49-8819c1a18238")
+		)
+		(instances
+			(project "expander_cv_input"
+				(path "/e5e07d63-142e-479c-89c4-9bf280763543"
+					(reference "ADS1015_1_DIG1")
+					(unit 1)
+				)
+			)
+			(project "microlidian"
+				(path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 204.9272 32.3088 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec4d1e90-9113-4c4a-b9af-68efac614697")
+		(property "Reference" "JACK1"
+			(at 204.2922 25.4889 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack2_SwitchT"
+			(at 204.2922 27.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 204.9272 32.3088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.9272 32.3088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.9272 32.3088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "265a8116-b356-4f8b-b912-eb14be5b2f08")
+		)
+		(pin "T"
+			(uuid "e1dc4337-fd3a-4148-9185-757c3bef4d81")
+		)
+		(pin "TN"
+			(uuid "c615a14b-02d0-4069-bc75-7f22ab128a9b")
+		)
+		(instances
+			(project "expander_cv_input"
+				(path "/e5e07d63-142e-479c-89c4-9bf280763543"
+					(reference "JACK1")
+					(unit 1)
+				)
+			)
+			(project "microlidian"
+				(path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
+					(reference "CV_Input_A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 205.1812 56.9468 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f48987ee-e0ef-485e-a712-366684679bd2")
+		(property "Reference" "JACK2"
+			(at 204.5462 50.1269 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack2_SwitchT"
+			(at 204.5462 52.0479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 205.1812 56.9468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.1812 56.9468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.1812 56.9468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "6a6057a5-034b-4ad1-a60c-afc0231d804c")
+		)
+		(pin "T"
+			(uuid "e303c7f2-1d82-498d-8bf3-994e6b407bdb")
+		)
+		(pin "TN"
+			(uuid "836a0107-70f5-45a9-b220-77b9f8670bd8")
+		)
+		(instances
+			(project "expander_cv_input"
+				(path "/e5e07d63-142e-479c-89c4-9bf280763543"
+					(reference "JACK2")
+					(unit 1)
+				)
+			)
+			(project "microlidian"
+				(path "/f3b5c3e2-a769-4f71-bc6f-5b90415c45e5"
+					(reference "CV_Input_C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
