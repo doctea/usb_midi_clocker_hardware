@@ -785,7 +785,7 @@
 	)
 	(global_label "Input Frontboard A"
 		(shape input)
-		(at 80.01 35.56 0)
+		(at 80.01 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -795,7 +795,7 @@
 		)
 		(uuid "076a7755-79ff-47c2-933e-ca66d71e85a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.0772 35.56 0)
+			(at 101.0772 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -983,7 +983,7 @@
 	)
 	(global_label "Input Frontboard C"
 		(shape input)
-		(at 80.01 30.48 0)
+		(at 80.01 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -993,7 +993,7 @@
 		)
 		(uuid "932044eb-b712-4db7-8bde-f569980d53d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.2586 30.48 0)
+			(at 101.2586 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -66,6 +66,7 @@ Files for PCB modules for use by [usb_midi_clocker](https://github.com/doctea/us
 
 # CV Output expander
 
+- DONE: correct the ADC inputs, as they are reversed on the first boards! (A was connected to C and C was connected to A) *facepalm*
 - FIX: find correct footprint/component to use for the +12/-12v protection diodes (workaround is to just bridge the connections -- remember to do this BEFORE spending 6 hours debugging everything else!!  Without this, it will look like the DAC chip is working except you won't get any output at all!!!)
 - IMPROVE: move the power connector to the inside edge of the board and use right-angle pin headers 
 - IMPROVE: use right-angle pin headers/socket for the expander port; maybe get rid of one of the duplicate expander port to give more room for the power connector
