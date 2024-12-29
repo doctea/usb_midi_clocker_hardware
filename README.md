@@ -28,7 +28,7 @@ Files for PCB modules for use by [usb_midi_clocker](https://github.com/doctea/us
 
 ### Gate expander back board
 
-- FIX: ?? fix whatever the problem is that is making SPI is unreliable af and lights randomly seeming to not go off
+- FIX: ?? fix whatever the problem is that is making SPI unreliable af and lights randomly seeming to not go off
 - DONE/UNTESTED: one of the protection diodes isn't connected to ground
 - FIX: eratic behaviour where LEDs stay lit, don't light up properly, etc
 	- seems to be fixed/worked around by dropping SPI rate and putting a 22pf cap between MOSI+GND, one between GND+CS1, on between GND+SCK, one between CS1+SCK, and a 100ohm resistor between CS1+SCK too
@@ -57,9 +57,23 @@ Files for PCB modules for use by [usb_midi_clocker](https://github.com/doctea/us
 - IMPROVE: pitch spacing of the resistors/capacitors to allow common components to fit a little better (slightly wider resistor spacing, slightly narrower capacitor spacing)
 - IMPROVE: maybe add protection diodes to protect the Teensy's GPIO pins in the event of wrong thing being connected?
 - IMPROVE: Make panel double-sided (in+outs 1-4 on one side, 5-6 on the other)
-- IMPROVE: probably possible to do this in 2hp instead of 3hp
+- IMPROVE: probably possible to do this in 3hp instead of 4hp
 
 ## USB+SD expander
 
 - TODO: Add a way to directly power USB Host from case's 5V
 - TODO: IMPORTANT! Label the USB Host pins so that can tell which end is ground!
+
+# CV Output expander
+
+- FIX: find correct footprint/component to use for the +12/-12v protection diodes (workaround is to just bridge the connections -- remember to do this BEFORE spending 6 hours debugging everything else!!  Without this, it will look like the DAC chip is working except you won't get any output at all!!!)
+- IMPROVE: move the power connector to the inside edge of the board and use right-angle pin headers 
+- IMPROVE: use right-angle pin headers/socket for the expander port; maybe get rid of one of the duplicate expander port to give more room for the power connector
+- IMPROVE: label the stripe on the expander port(s)
+
+## Future
+
+- Daughterboards to replace the CV input (currently reliant on Pimoroni 24v ADC module):
+ - Own replacement for the Pimoroni board (believe this to be beyond my current ability)
+ - Daughterboard to add 3xGate outputs, instead of inputs, based around a GPIO i2c
+- Expander-for-the-expander to add switches to select uni-polar/bipolar modes -- with GPIO i2c on there, too, so that we know in software to switch modes and use different calibration data
