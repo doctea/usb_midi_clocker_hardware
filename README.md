@@ -79,14 +79,14 @@ Files for PCB modules for use by [usb_midi_clocker](https://github.com/doctea/us
 |  0x4C   | LOW | LOW | correct |
 |  0x4D   | LOW | HIGH | incorrectly seems to stick at 0x4C as if A0 is stuck low? |
 |  0x4E   | HIGH | LOW | correct |
-|  0x4F   | HIGH | HIGH | untested |
+|  0x4F   | HIGH | HIGH | untested - presumed non-working as A0 seems to be stuck low in this hardware revision? |
 
 | Bank | A3 | A2 | Note |
 | ---- | -- | -- | ---- |
 | 0    | LOW | LOW | Correct |
-| 1    | LOW | HIGH | untested |
-| 2    | HIGH | LOW | untested |
-| 3    | HIGH | HIGH | untested |
+| 1    | LOW | HIGH | Correct |
+| 2    | HIGH | LOW | untested but presumed working |
+| 3    | HIGH | HIGH | untested but presumed working |
 
 # Future
 
