@@ -64,7 +64,7 @@ Files for PCB modules for use by [usb_midi_clocker](https://github.com/doctea/us
 - TODO: Add a way to directly power USB Host from case's 5V
 - TODO: IMPORTANT! Label the USB Host pins so that can tell which end is ground!
 
-# CV Output expander
+## CV Output expander
 
 - DONE: correct the ADC inputs, as they are reversed on the first boards! (A was connected to C and C was connected to A) *facepalm*
 - FIX: find correct footprint/component to use for the +12/-12v protection diodes (workaround is to just bridge the connections -- remember to do this BEFORE spending 6 hours debugging everything else!!  Without this, it will look like the DAC chip is working except you won't get any output at all!!!)
@@ -72,7 +72,23 @@ Files for PCB modules for use by [usb_midi_clocker](https://github.com/doctea/us
 - IMPROVE: use right-angle pin headers/socket for the expander port; maybe get rid of one of the duplicate expander port to give more room for the power connector
 - IMPROVE: label the stripe on the expander port(s)
 
-## Future
+### Addresses
+
+| Address | A1  | A0  | Note |
+| ------- | --- | --- | ---- |
+|  0x4C   | LOW | LOW | correct |
+|  0x4D   | LOW | HIGH | incorrectly seems to stick at 0x4C as if A0 is stuck low? |
+|  0x4E   | HIGH | LOW | correct |
+|  0x4F   | HIGH | HIGH | untested - presumed non-working as A0 seems to be stuck low in this hardware revision? |
+
+| Bank | A3 | A2 | Note |
+| ---- | -- | -- | ---- |
+| 0    | LOW | LOW | Correct |
+| 1    | LOW | HIGH | Correct |
+| 2    | HIGH | LOW | untested but presumed working |
+| 3    | HIGH | HIGH | untested but presumed working |
+
+# Future
 
 - Daughterboards to replace the CV input (currently reliant on Pimoroni 24v ADC module):
  - Own replacement for the Pimoroni board (believe this to be beyond my current ability)
