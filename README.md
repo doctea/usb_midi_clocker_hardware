@@ -71,6 +71,8 @@ Files for PCB modules for use by [usb_midi_clocker](https://github.com/doctea/us
 - IMPROVE: move the power connector to the inside edge of the board and use right-angle pin headers 
 - IMPROVE: use right-angle pin headers/socket for the expander port; maybe get rid of one of the duplicate expander port to give more room for the power connector
 - IMPROVE: label the stripe on the expander port(s)
+- IMRPOVE: scale the LED output so that brightness doesn't max out halfway through range (LEDs are https://www.ebay.co.uk/itm/254275891818 - R/G 575nm Diffused Lens)
+- NOTE: short leg of LEDs goes in square hole to ensure that green is positive and red negative
 
 ### Addresses
 
